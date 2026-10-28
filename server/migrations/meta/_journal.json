@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792739838713,
+      "tag": "0000_gigantic_miracleman",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792750132376,
+      "tag": "0001_lame_impossible_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792936800000,
+      "tag": "0002_safety_resources",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792939500000,
+      "tag": "0003_member_grades",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792990800000,
+      "tag": "0004_msds_workspace",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1793008800000,
+      "tag": "0005_publication_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1793084176773,
+      "tag": "0006_email_accounts",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1793144142081,
+      "tag": "0007_community_recovery",
+      "breakpoints": true
+    }
+  ]
+}

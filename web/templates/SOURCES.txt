@@ -1,0 +1,4 @@
+blank.hwpx is the empty document sample from neolord0/hwpxlib:
+https://github.com/neolord0/hwpxlib/blob/main/testFile/tool/blank.hwpx
+Apache License 2.0; see HWPXLIB-LICENSE.txt.
+The application preserves the sample's section/page/style definitions and adds editable paragraphs.

@@ -1,0 +1,16 @@
+import { build } from 'vite';
+import react from '@vitejs/plugin-react';
+import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { stripTypeScriptTypes, createRequire } from 'node:module';
+import path from 'node:path';
+import { pythonAdapter } from './frontend-adapter.mjs';
+const root = fileURLToPath(new URL('../', import.meta.url));
+const require = createRequire(import.meta.url);
+await mkdir(path.join(root, 'public/vendor'), { recursive: true });
+await copyFile(require.resolve('pdfjs-dist/legacy/build/pdf.worker.min.mjs'), path.join(root, 'public/vendor/pdf.worker.min.mjs'));
+await build({ configFile: false, root: path.join(root, 'frontend'), publicDir: path.join(root, 'public'), plugins: [pythonAdapter(), react()], css: { postcss: { plugins: [] } }, build: { outDir: path.join(root, 'web'), emptyOutDir: true } });
+const source = stripTypeScriptTypes(await readFile(path.join(root, 'lib/news-sources.ts'), 'utf8'));
+const { NEWS_SOURCES } = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
+await writeFile(path.join(root, 'server/news-sources.json'), JSON.stringify(NEWS_SOURCES, null, 2) + '\n');
+console.log('PythonHOME web/ build complete. Deployment ZIP runs without Node.');

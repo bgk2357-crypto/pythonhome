@@ -1,0 +1,83 @@
+[
+  {
+    "id": "kosha-notice",
+    "name": "안전보건공단 공지",
+    "institution": "안전보건공단",
+    "kind": "trends",
+    "format": "kosha",
+    "method": "POST",
+    "url": "https://portal.kosha.or.kr/api/portal24/bizA/p/ACMZZ04000/bbs/id01",
+    "homepage": "https://portal.kosha.or.kr/community/notice"
+  },
+  {
+    "id": "kosha-business",
+    "name": "안전보건공단 사업 알림",
+    "institution": "안전보건공단",
+    "kind": "trends",
+    "format": "kosha",
+    "method": "POST",
+    "url": "https://portal.kosha.or.kr/api/portal24/bizA/p/ACMZZ04000/bbs/id05",
+    "homepage": "https://portal.kosha.or.kr/"
+  },
+  {
+    "id": "kosha-accident",
+    "name": "안전보건공단 재해사례",
+    "institution": "안전보건공단",
+    "kind": "trends",
+    "format": "kosha",
+    "method": "POST",
+    "url": "https://portal.kosha.or.kr/api/portal24/bizA/p/ACMZZ04000/bbs/id03",
+    "homepage": "https://portal.kosha.or.kr/"
+  },
+  {
+    "id": "moel-notice",
+    "name": "고용노동부 공지",
+    "institution": "고용노동부",
+    "kind": "trends",
+    "format": "rss",
+    "url": "https://www.moel.go.kr/rss/notice.do",
+    "homepage": "https://www.moel.go.kr/news/notice/noticeList.do"
+  },
+  {
+    "id": "moel-report",
+    "name": "고용노동부 보도자료",
+    "institution": "고용노동부",
+    "kind": "trends",
+    "format": "board",
+    "url": "https://www.moel.go.kr/news/enews/report/enewsList.do",
+    "homepage": "https://www.moel.go.kr/news/enews/report/enewsList.do"
+  },
+  {
+    "id": "kiha-notice",
+    "name": "한국산업보건학회 공지",
+    "institution": "한국산업보건학회",
+    "kind": "trends",
+    "format": "board",
+    "url": "https://www.kiha.kr/main/community.htm?tbn=gongi",
+    "homepage": "https://www.kiha.kr/main/community.htm?tbn=gongi"
+  },
+  {
+    "id": "news-safety",
+    "name": "안전·보건 뉴스",
+    "kind": "general",
+    "format": "rss",
+    "url": "https://news.google.com/rss/search?q=%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84+OR+%EC%82%B0%EC%97%85%EB%B3%B4%EA%B1%B4+OR+%EC%A4%91%EB%8C%80%EC%9E%AC%ED%95%B4+OR+%EC%82%AC%EB%A7%9D%EC%82%AC%EA%B3%A0+OR+%EC%95%88%EC%A0%84%EC%82%AC%EA%B3%A0+when%3A14d&hl=ko&gl=KR&ceid=KR%3Ako",
+    "homepage": "https://news.google.com/"
+  },
+  {
+    "id": "news-chemical",
+    "name": "화학물질·누출 뉴스",
+    "kind": "general",
+    "format": "rss",
+    "url": "https://news.google.com/rss/search?q=%22%ED%99%94%ED%95%99%EB%AC%BC%EC%A7%88%22+OR+%22%EA%B0%80%EC%8A%A4+%EB%88%84%EC%B6%9C%22+OR+%22%ED%99%94%ED%95%99%EB%AC%BC%EC%A7%88+%EB%88%84%EC%B6%9C%22+OR+%22%EC%9C%A0%ED%95%B4%EB%AC%BC%EC%A7%88+%EC%9C%A0%EC%B6%9C%22+when%3A14d&hl=ko&gl=KR&ceid=KR%3Ako",
+    "homepage": "https://news.google.com/"
+  },
+  {
+    "id": "news-fire",
+    "name": "화재·폭발 뉴스",
+    "kind": "general",
+    "format": "rss",
+    "url": "https://news.google.com/rss/search?q=%ED%99%94%EC%9E%AC+OR+%ED%8F%AD%EB%B0%9C+%EC%82%AC%EA%B3%A0+when%3A7d&hl=ko&gl=KR&ceid=KR%3Ako",
+    "homepage": "https://news.google.com/"
+  }
+]

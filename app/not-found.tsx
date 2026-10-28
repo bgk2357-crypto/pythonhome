@@ -1,0 +1,1 @@
+export default function NotFound() { return <main className="page-main container"><div className="content-panel"><span className="eyebrow">404</span><h1>페이지를 찾을 수 없습니다</h1><p>주소를 확인하거나 홈페이지로 돌아가주세요.</p><a className="button" href="/">Home으로 이동 →</a></div></main>; }

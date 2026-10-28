@@ -1,0 +1,7899 @@
+{
+  "sources": [
+    {
+      "id": "managed",
+      "title": "산업안전보건기준에 관한 규칙 별표 12",
+      "effective": "2026-03-02",
+      "checked": "2026-10-26",
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=155899307",
+      "local": "/regulations/annex12.pdf",
+      "sha256": "6374ea154dda8bb138e8c9420f600a3e39bb854decce7f8c0af46770c2b166fd"
+    },
+    {
+      "id": "measurement",
+      "title": "산업안전보건법 시행규칙 별표 21",
+      "effective": "2026-08-01",
+      "checked": "2026-10-26",
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167476075",
+      "local": "/regulations/annex21.pdf",
+      "sha256": "9a66bf45d3a7ac3e836497fe312506817adfff8dafbc7150508a49f79bf2bd8f"
+    },
+    {
+      "id": "health",
+      "title": "산업안전보건법 시행규칙 별표 22",
+      "effective": "2026-08-01",
+      "checked": "2026-10-26",
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167476101",
+      "local": "/regulations/annex22.pdf",
+      "sha256": "b0020dc5d49d0036201f7e1bb713bb2524372d9add98f807424ae39430c2534e"
+    }
+  ],
+  "entries": [
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 1,
+      "name": "글루타르알데히드",
+      "cas": [
+        "111-30-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "글루타르알데히드(Glutaraldehyde;111-30-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 2,
+      "name": "니트로글리세린",
+      "cas": [
+        "55-63-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "니트로글리세린(Nitroglycerin;55-63-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 3,
+      "name": "니트로메탄",
+      "cas": [
+        "75-52-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "니트로메탄(Nitromethane;75-52-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 4,
+      "name": "니트로벤젠",
+      "cas": [
+        "98-95-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "니트로벤젠(Nitrobenzene;98-95-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 5,
+      "name": "p-니트로아닐린",
+      "cas": [
+        "100-01-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "p-니트로아닐린(p-Nitroaniline;100-01-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 6,
+      "name": "p-니트로클로로벤젠",
+      "cas": [
+        "100-00-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "p-니트로클로로벤젠(p-Nitrochlorobenzene;100-00-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 7,
+      "name": "2-니트로톨루엔",
+      "cas": [
+        "88-72-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "2-니트로톨루엔(2-Nitrotoluene;88-72-2)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 8,
+      "name": "디(2-에틸헥실)프탈레이트",
+      "cas": [
+        "117-81-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디(2-에틸헥실)프탈레이트(Di(2-ethylhexyl)phthalate;117-81-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 9,
+      "name": "디니트로톨루엔",
+      "cas": [
+        "25321-14-6"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "디니트로톨루엔(Dinitrotoluene;25321-14-6등)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 10,
+      "name": "N,N-디메틸아닐린",
+      "cas": [
+        "121-69-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "N,N-디메틸아닐린(N,N-Dimethylaniline;121-69-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 11,
+      "name": "디메틸아민",
+      "cas": [
+        "124-40-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디메틸아민(Dimethylamine;124-40-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 12,
+      "name": "N,N-디메틸아세트아미드",
+      "cas": [
+        "127-19-5"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "N,N-디메틸아세트아미드(N,N-Dimethylacetamide;127-19-5)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 13,
+      "name": "디메틸포름아미드",
+      "cas": [
+        "68-12-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "디메틸포름아미드(Dimethylformamide;68-12-2)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 14,
+      "name": "디부틸프탈레이트",
+      "cas": [
+        "84-74-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "디부틸프탈레이트(Dibutylphthalate;84-74-2)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 15,
+      "name": "디에탄올아민",
+      "cas": [
+        "111-42-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디에탄올아민(Diethanolamine;111-42-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 16,
+      "name": "디에틸에테르",
+      "cas": [
+        "60-29-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디에틸에테르(Diethylether;60-29-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 17,
+      "name": "디에틸렌트리아민",
+      "cas": [
+        "111-40-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디에틸렌트리아민(Diethylenetriamine;111-40-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 18,
+      "name": "2-디에틸아미노에탄올",
+      "cas": [
+        "100-37-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "2-디에틸아미노에탄올(2-Diethylaminoethanol;100-37-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 19,
+      "name": "디에틸아민",
+      "cas": [
+        "109-89-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디에틸아민(Diethylamine;109-89-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 20,
+      "name": "1,4-디옥산",
+      "cas": [
+        "123-91-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "1,4-디옥산(1,4-Dioxane;123-91-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 21,
+      "name": "디이소부틸케톤",
+      "cas": [
+        "108-83-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디이소부틸케톤(Diisobutylketone;108-83-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 22,
+      "name": "1,1-디클로로-1-플루오로에탄",
+      "cas": [
+        "1717-00-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "1,1-디클로로-1-플루오로에탄(1,1-Dichloro-1-fluoroethane;1717-00-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 23,
+      "name": "디클로로메탄",
+      "cas": [
+        "75-09-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디클로로메탄(Dichloromethane;75-09-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 24,
+      "name": "o-디클로로벤젠",
+      "cas": [
+        "95-50-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "o-디클로로벤젠(o-Dichlorobenzene;95-50-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 25,
+      "name": "1,2-디클로로에탄",
+      "cas": [
+        "107-06-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "1,2-디클로로에탄(1,2-Dichloroethane;107-06-2)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 26,
+      "name": "1,2-디클로로에틸렌",
+      "cas": [
+        "540-59-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "1,2-디클로로에틸렌(1,2-Dichloroethylene;540-59-0등)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 27,
+      "name": "1,2-디클로로프로판",
+      "cas": [
+        "78-87-5"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "1,2-디클로로프로판(1,2-Dichloropropane;78-87-5)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 28,
+      "name": "디클로로플루오로메탄",
+      "cas": [
+        "75-43-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디클로로플루오로메탄(Dichlorofluoromethane;75-43-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 29,
+      "name": "p-디히드록시벤젠",
+      "cas": [
+        "123-31-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "p-디히드록시벤젠(p-dihydroxybenzene;123-31-9)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 30,
+      "name": "메탄올",
+      "cas": [
+        "67-56-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메탄올(Methanol;67-56-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 31,
+      "name": "2-메톡시에탄올",
+      "cas": [
+        "109-86-4"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "2-메톡시에탄올(2-Methoxyethanol;109-86-4)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 32,
+      "name": "2-메톡시에틸아세테이트",
+      "cas": [
+        "110-49-6"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "2-메톡시에틸아세테이트(2-Methoxyethylacetate;110-49-6)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 33,
+      "name": "메틸n-부틸케톤",
+      "cas": [
+        "591-78-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸n-부틸케톤(Methyln-butylketone;591-78-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 34,
+      "name": "메틸n-아밀케톤",
+      "cas": [
+        "110-43-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸n-아밀케톤(Methyln-amylketone;110-43-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 35,
+      "name": "메틸아민",
+      "cas": [
+        "74-89-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸아민(Methylamine;74-89-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 36,
+      "name": "메틸아세테이트",
+      "cas": [
+        "79-20-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸아세테이트(Methylacetate;79-20-9)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 37,
+      "name": "메틸에틸케톤",
+      "cas": [
+        "78-93-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸에틸케톤(Methylethylketone;78-93-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 38,
+      "name": "메틸이소부틸케톤",
+      "cas": [
+        "108-10-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸이소부틸케톤(Methylisobutylketone;108-10-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 39,
+      "name": "메틸클로라이드",
+      "cas": [
+        "74-87-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸클로라이드(Methylchloride;74-87-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 40,
+      "name": "메틸클로로포름",
+      "cas": [
+        "71-55-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸클로로포름(Methylchloroform;71-55-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 41,
+      "name": "메틸렌비스(페닐이소시아네이트)",
+      "cas": [
+        "101-68-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸렌비스(페닐이소시아네이트)(Methylenebis(phenylisocyanate);101-68-8등)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 42,
+      "name": "o-메틸시클로헥사논",
+      "cas": [
+        "583-60-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "o-메틸시클로헥사논(o-Methylcyclohexanone;583-60-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 43,
+      "name": "메틸시클로헥사놀",
+      "cas": [
+        "25639-42-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "메틸시클로헥사놀(Methylcyclohexanol;25639-42-3등)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 44,
+      "name": "무수말레산",
+      "cas": [
+        "108-31-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "무수말레산(Maleicanhydride;108-31-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 45,
+      "name": "무수프탈산",
+      "cas": [
+        "85-44-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "무수프탈산(Phthalicanhydride;85-44-9)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 46,
+      "name": "벤젠",
+      "cas": [
+        "71-43-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "벤젠(Benzene;71-43-2)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 47,
+      "name": "벤조(a)피렌",
+      "cas": [
+        "50-32-8"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "벤조(a)피렌[Benzo(a)pyrene;50-32-8](특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 48,
+      "name": "1,3-부타디엔",
+      "cas": [
+        "106-99-0"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "1,3-부타디엔(1,3-Butadiene;106-99-0)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 49,
+      "name": "n-부탄올",
+      "cas": [
+        "71-36-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "n-부탄올(n-Butanol;71-36-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 50,
+      "name": "2-부탄올",
+      "cas": [
+        "78-92-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "2-부탄올(2-Butanol;78-92-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 51,
+      "name": "2-부톡시에탄올",
+      "cas": [
+        "111-76-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "2-부톡시에탄올(2-Butoxyethanol;111-76-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 52,
+      "name": "2-부톡시에틸아세테이트",
+      "cas": [
+        "112-07-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "2-부톡시에틸아세테이트(2-Butoxyethylacetate;112-07-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 53,
+      "name": "n-부틸아세테이트",
+      "cas": [
+        "123-86-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "n-부틸아세테이트(n-Butylacetate;123-86-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 54,
+      "name": "1-브로모프로판",
+      "cas": [
+        "106-94-5"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "1-브로모프로판(1-Bromopropane;106-94-5)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 55,
+      "name": "2-브로모프로판",
+      "cas": [
+        "75-26-3"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "2-브로모프로판(2-Bromopropane;75-26-3)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 56,
+      "name": "브롬화메틸",
+      "cas": [
+        "74-83-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "브롬화메틸(Methylbromide;74-83-9)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 57,
+      "name": "브이엠및피나프타",
+      "cas": [
+        "8032-32-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "브이엠및피나프타(VM&PNaphtha;8032-32-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 58,
+      "name": "비닐아세테이트",
+      "cas": [
+        "108-05-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "비닐아세테이트(Vinylacetate;108-05-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 59,
+      "name": "사염화탄소",
+      "cas": [
+        "56-23-5"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "사염화탄소(Carbontetrachloride;56-23-5)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 60,
+      "name": "스토다드솔벤트",
+      "cas": [
+        "8052-41-3"
+      ],
+      "special": true,
+      "conditional": true,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "스토다드솔벤트(Stoddardsolvent;8052-41-3)(벤젠을0.1%이상함유한경우만특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 61,
+      "name": "스티렌",
+      "cas": [
+        "100-42-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "스티렌(Styrene;100-42-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 62,
+      "name": "시클로헥사논",
+      "cas": [
+        "108-94-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시클로헥사논(Cyclohexanone;108-94-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 63,
+      "name": "시클로헥사놀",
+      "cas": [
+        "108-93-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시클로헥사놀(Cyclohexanol;108-93-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 64,
+      "name": "시클로헥산",
+      "cas": [
+        "110-82-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시클로헥산(Cyclohexane;110-82-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 65,
+      "name": "시클로헥센",
+      "cas": [
+        "110-83-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시클로헥센(Cyclohexene;110-83-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 66,
+      "name": "시클로헥실아민",
+      "cas": [
+        "108-91-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시클로헥실아민(Cyclohexylamine;108-91-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 67,
+      "name": "아닐린",
+      "cas": [
+        "62-53-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "아닐린[62-53-3]및그동족체(Anilineanditshomologues)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 68,
+      "name": "아세토니트릴",
+      "cas": [
+        "75-05-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "아세토니트릴(Acetonitrile;75-05-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 69,
+      "name": "아세톤",
+      "cas": [
+        "67-64-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "아세톤(Acetone;67-64-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 70,
+      "name": "아세트알데히드",
+      "cas": [
+        "75-07-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "아세트알데히드(Acetaldehyde;75-07-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 71,
+      "name": "아크릴로니트릴",
+      "cas": [
+        "107-13-1"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "아크릴로니트릴(Acrylonitrile;107-13-1)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 72,
+      "name": "아크릴아미드",
+      "cas": [
+        "79-06-1"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "아크릴아미드(Acrylamide;79-06-1)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 73,
+      "name": "알릴글리시딜에테르",
+      "cas": [
+        "106-92-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "알릴글리시딜에테르(Allylglycidylether;106-92-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 74,
+      "name": "에탄올아민",
+      "cas": [
+        "141-43-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "에탄올아민(Ethanolamine;141-43-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 75,
+      "name": "2-에톡시에탄올",
+      "cas": [
+        "110-80-5"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "2-에톡시에탄올(2-Ethoxyethanol;110-80-5)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 76,
+      "name": "2-에톡시에틸아세테이트",
+      "cas": [
+        "111-15-9"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "2-에톡시에틸아세테이트(2-Ethoxyethylacetate;111-15-9)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 77,
+      "name": "에틸벤젠",
+      "cas": [
+        "100-41-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "에틸벤젠(Ethylbenzene;100-41-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 78,
+      "name": "에틸아세테이트",
+      "cas": [
+        "141-78-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "에틸아세테이트(Ethylacetate;141-78-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 79,
+      "name": "에틸아크릴레이트",
+      "cas": [
+        "140-88-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "에틸아크릴레이트(Ethylacrylate;140-88-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 80,
+      "name": "에틸렌글리콜",
+      "cas": [
+        "107-21-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "에틸렌글리콜(Ethyleneglycol;107-21-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 81,
+      "name": "에틸렌글리콜디니트레이트",
+      "cas": [
+        "628-96-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "에틸렌글리콜디니트레이트(Ethyleneglycoldinitrate;628-96-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 82,
+      "name": "에틸렌클로로히드린",
+      "cas": [
+        "107-07-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "에틸렌클로로히드린(Ethylenechlorohydrin;107-07-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 83,
+      "name": "에틸렌이민",
+      "cas": [
+        "151-56-4"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "에틸렌이민(Ethyleneimine;151-56-4)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 84,
+      "name": "에틸아민",
+      "cas": [
+        "75-04-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "에틸아민(Ethylamine;75-04-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 85,
+      "name": "2,3-에폭시-1-프로판올",
+      "cas": [
+        "556-52-5"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "2,3-에폭시-1-프로판올(2,3-Epoxy-1-propanol;556-52-5등)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 86,
+      "name": "1,2-에폭시프로판",
+      "cas": [
+        "75-56-9"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "1,2-에폭시프로판(1,2-Epoxypropane;75-56-9등)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 87,
+      "name": "에피클로로히드린",
+      "cas": [
+        "106-89-8"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "에피클로로히드린(Epichlorohydrin;106-89-8등)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 88,
+      "name": "와파린",
+      "cas": [
+        "81-81-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "와파린(Warfarin;81-81-2)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 89,
+      "name": "요오드화메틸",
+      "cas": [
+        "74-88-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "요오드화메틸(Methyliodide;74-88-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 90,
+      "name": "이소부틸아세테이트",
+      "cas": [
+        "110-19-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이소부틸아세테이트(Isobutylacetate;110-19-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 91,
+      "name": "이소부틸알코올",
+      "cas": [
+        "78-83-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이소부틸알코올(Isobutylalcohol;78-83-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 92,
+      "name": "이소아밀아세테이트",
+      "cas": [
+        "123-92-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이소아밀아세테이트(Isoamylacetate;123-92-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 93,
+      "name": "이소아밀알코올",
+      "cas": [
+        "123-51-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이소아밀알코올(Isoamylalcohol;123-51-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 94,
+      "name": "이소프로필아세테이트",
+      "cas": [
+        "108-21-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이소프로필아세테이트(Isopropylacetate;108-21-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 95,
+      "name": "이소프로필알코올",
+      "cas": [
+        "67-63-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이소프로필알코올(Isopropylalcohol;67-63-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 96,
+      "name": "이황화탄소",
+      "cas": [
+        "75-15-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이황화탄소(Carbondisulfide;75-15-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 97,
+      "name": "크레졸",
+      "cas": [
+        "1319-77-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "크레졸(Cresol;1319-77-3등)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 98,
+      "name": "크실렌",
+      "cas": [
+        "1330-20-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "크실렌(Xylene;1330-20-7등)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 99,
+      "name": "2-클로로-1,3-부타디엔",
+      "cas": [
+        "126-99-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "2-클로로-1,3-부타디엔(2-Chloro-1,3-butadiene;126-99-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 100,
+      "name": "클로로벤젠",
+      "cas": [
+        "108-90-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "클로로벤젠(Chlorobenzene;108-90-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 101,
+      "name": "1,1,2,2-테트라클로로에탄",
+      "cas": [
+        "79-34-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "1,1,2,2-테트라클로로에탄(1,1,2,2-Tetrachloroethane;79-34-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 102,
+      "name": "테트라히드로푸란",
+      "cas": [
+        "109-99-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "테트라히드로푸란(Tetrahydrofuran;109-99-9)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 103,
+      "name": "톨루엔",
+      "cas": [
+        "108-88-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "톨루엔(Toluene;108-88-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 104,
+      "name": "톨루엔-2,4-디이소시아네이트",
+      "cas": [
+        "584-84-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "톨루엔-2,4-디이소시아네이트(Toluene-2,4-diisocyanate;584-84-9등)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 105,
+      "name": "톨루엔-2,6-디이소시아네이트",
+      "cas": [
+        "91-08-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "톨루엔-2,6-디이소시아네이트(Toluene-2,6-diisocyanate);91-08-7등)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 106,
+      "name": "트리에틸아민",
+      "cas": [
+        "121-44-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "트리에틸아민(Triethylamine;121-44-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 107,
+      "name": "트리클로로메탄",
+      "cas": [
+        "67-66-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "트리클로로메탄(Trichloromethane;67-66-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 108,
+      "name": "1,1,2-트리클로로에탄",
+      "cas": [
+        "79-00-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "1,1,2-트리클로로에탄(1,1,2-Trichloroethane;79-00-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 109,
+      "name": "트리클로로에틸렌",
+      "cas": [
+        "79-01-6"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "트리클로로에틸렌(Trichloroethylene;79-01-6)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 110,
+      "name": "1,2,3-트리클로로프로판",
+      "cas": [
+        "96-18-4"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "1,2,3-트리클로로프로판(1,2,3-Trichloropropane;96-18-4)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 111,
+      "name": "퍼클로로에틸렌",
+      "cas": [
+        "127-18-4"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "퍼클로로에틸렌(Perchloroethylene;127-18-4)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 112,
+      "name": "페놀",
+      "cas": [
+        "108-95-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "페놀(Phenol;108-95-2)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 113,
+      "name": "페닐글리시딜에테르",
+      "cas": [
+        "122-60-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "페닐글리시딜에테르(Phenylglycidylether;122-60-1등)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 114,
+      "name": "포름아미드",
+      "cas": [
+        "75-12-7"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "포름아미드(Formamide;75-12-7)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 115,
+      "name": "포름알데히드",
+      "cas": [
+        "50-00-0"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "포름알데히드(Formaldehyde;50-00-0)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 116,
+      "name": "프로필렌이민",
+      "cas": [
+        "75-55-8"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "프로필렌이민(Propyleneimine;75-55-8)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 117,
+      "name": "n-프로필아세테이트",
+      "cas": [
+        "109-60-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "n-프로필아세테이트(n-Propylacetate;109-60-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 118,
+      "name": "피리딘",
+      "cas": [
+        "110-86-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "피리딘(Pyridine;110-86-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 119,
+      "name": "헥사메틸렌디이소시아네이트",
+      "cas": [
+        "822-06-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "헥사메틸렌디이소시아네이트(Hexamethylenediisocyanate;822-06-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 120,
+      "name": "n-헥산",
+      "cas": [
+        "110-54-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "n-헥산(n-Hexane;110-54-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 121,
+      "name": "n-헵탄",
+      "cas": [
+        "142-82-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "n-헵탄(n-Heptane;142-82-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 122,
+      "name": "황산디메틸",
+      "cas": [
+        "77-78-1"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "황산디메틸(Dimethylsulfate;77-78-1)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "유기화합물",
+      "ordinal": 123,
+      "name": "히드라진",
+      "cas": [
+        "302-01-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "히드라진[302-01-2]및그수화물(Hydrazineanditshydrates)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 1,
+      "name": "구리",
+      "cas": [
+        "7440-50-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "구리[7440-50-8]및그화합물(Copperanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 2,
+      "name": "납",
+      "cas": [
+        "7439-92-1"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": true,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "납[7439-92-1]및그무기화합물(Leadanditsinorganiccompounds)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 3,
+      "name": "니켈",
+      "cas": [
+        "7440-02-0"
+      ],
+      "special": true,
+      "conditional": true,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "니켈[7440-02-0]및그무기화합물,니켈카르보닐(Nickelanditsinorganiccompounds,Nickelcarbonyl)(불용성화합물만특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 4,
+      "name": "망간",
+      "cas": [
+        "7439-96-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "망간[7439-96-5]및그무기화합물(Manganeseanditsinorganiccompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 5,
+      "name": "바륨",
+      "cas": [
+        "7440-39-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "바륨[7440-39-3]및그가용성화합물(Bariumanditssolublecompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 6,
+      "name": "백금",
+      "cas": [
+        "7440-06-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "백금[7440-06-4]및그화합물(Platinumanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 7,
+      "name": "산화마그네슘",
+      "cas": [
+        "1309-48-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "산화마그네슘(Magnesiumoxide;1309-48-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 8,
+      "name": "산화붕소",
+      "cas": [
+        "1303-86-2"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "산화붕소(Boronoxide;1303-86-2)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 9,
+      "name": "셀레늄",
+      "cas": [
+        "7782-49-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "셀레늄[7782-49-2]및그화합물(Seleniumanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 10,
+      "name": "수은",
+      "cas": [
+        "7439-97-6"
+      ],
+      "special": true,
+      "conditional": true,
+      "family": true,
+      "threshold": 0.3,
+      "basis": "weight",
+      "text": "수은[7439-97-6]및그화합물(Mercuryanditscompounds)(특별관리물질.다만,아릴화합물및알킬화합물은특별관리물질에서제외한다)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 11,
+      "name": "아연",
+      "cas": [
+        "7440-66-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "아연[7440-66-6]및그화합물(Zincanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 12,
+      "name": "안티몬",
+      "cas": [
+        "7440-36-0"
+      ],
+      "special": true,
+      "conditional": true,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "안티몬[7440-36-0]및그화합물(Antimonyanditscompounds)(삼산화안티몬만특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 13,
+      "name": "알루미늄",
+      "cas": [
+        "7429-90-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "알루미늄[7429-90-5]및그화합물(Aluminumanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 14,
+      "name": "오산화바나듐",
+      "cas": [
+        "1314-62-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "오산화바나듐(Vanadiumpentoxide;1314-62-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 15,
+      "name": "요오드",
+      "cas": [
+        "7553-56-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "요오드[7553-56-2]및요오드화물(Iodineandiodides)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 16,
+      "name": "은",
+      "cas": [
+        "7440-22-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "은[7440-22-4]및그화합물(Silveranditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 17,
+      "name": "이산화티타늄",
+      "cas": [
+        "13463-67-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이산화티타늄(Titaniumdioxide;13463-67-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 18,
+      "name": "인듐",
+      "cas": [
+        "7440-74-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "인듐[7440-74-6]및그화합물(Indiumanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 19,
+      "name": "주석",
+      "cas": [
+        "7440-31-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "주석[7440-31-5]및그화합물(Tinanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 20,
+      "name": "지르코늄",
+      "cas": [
+        "7440-67-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "지르코늄[7440-67-7]및그화합물(Zirconiumanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 21,
+      "name": "철",
+      "cas": [
+        "7439-89-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "철[7439-89-6]및그화합물(Ironanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 22,
+      "name": "카드뮴",
+      "cas": [
+        "7440-43-9"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "카드뮴[7440-43-9]및그화합물(Cadmiumanditscompounds)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 23,
+      "name": "코발트",
+      "cas": [
+        "7440-48-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "코발트[7440-48-4]및그무기화합물(Cobaltanditsinorganiccompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 24,
+      "name": "크롬",
+      "cas": [
+        "7440-47-3"
+      ],
+      "special": true,
+      "conditional": true,
+      "family": true,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "크롬[7440-47-3]및그화합물(Chromiumanditscompounds)(6가크롬화합물만특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "금속",
+      "ordinal": 25,
+      "name": "텅스텐",
+      "cas": [
+        "7440-33-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "텅스텐[7440-33-7]및그화합물(Tungstenanditscompounds)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 1,
+      "name": "개미산",
+      "cas": [
+        "64-18-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "개미산(Formicacid;64-18-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 2,
+      "name": "과산화수소",
+      "cas": [
+        "7722-84-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "과산화수소(Hydrogenperoxide;7722-84-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 3,
+      "name": "무수초산",
+      "cas": [
+        "108-24-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "무수초산(Aceticanhydride;108-24-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 4,
+      "name": "불화수소",
+      "cas": [
+        "7664-39-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "불화수소(Hydrogenfluoride;7664-39-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 5,
+      "name": "브롬화수소",
+      "cas": [
+        "10035-10-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "브롬화수소(Hydrogenbromide;10035-10-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 6,
+      "name": "사붕소산나트륨(무수물,오수화물)",
+      "cas": [
+        "1330-43-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "사붕소산나트륨(무수물,오수화물)(Sodiumtetraborate;1330-43-4,12179-04-"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 7,
+      "name": "수산화나트륨",
+      "cas": [
+        "1310-73-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "수산화나트륨(Sodiumhydroxide;1310-73-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 8,
+      "name": "수산화칼륨",
+      "cas": [
+        "1310-58-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "수산화칼륨(Potassiumhydroxide;1310-58-3)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 9,
+      "name": "시안화나트륨",
+      "cas": [
+        "143-33-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화나트륨(Sodiumcyanide;143-33-9)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 10,
+      "name": "시안화칼륨",
+      "cas": [
+        "151-50-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화칼륨(Potassiumcyanide;151-50-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 11,
+      "name": "시안화칼슘",
+      "cas": [
+        "592-01-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화칼슘(Calciumcyanide;592-01-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 12,
+      "name": "아크릴산",
+      "cas": [
+        "79-10-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "아크릴산(Acrylicacid;79-10-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 13,
+      "name": "염화수소",
+      "cas": [
+        "7647-01-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "염화수소(Hydrogenchloride;7647-01-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 14,
+      "name": "인산",
+      "cas": [
+        "7664-38-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "인산(Phosphoricacid;7664-38-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 15,
+      "name": "질산",
+      "cas": [
+        "7697-37-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "질산(Nitricacid;7697-37-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 16,
+      "name": "초산",
+      "cas": [
+        "64-19-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "초산(Aceticacid;64-19-7)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 17,
+      "name": "트리클로로아세트산",
+      "cas": [
+        "76-03-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "트리클로로아세트산(Trichloroaceticacid;76-03-9)"
+    },
+    {
+      "kind": "managed",
+      "group": "산알칼리",
+      "ordinal": 18,
+      "name": "황산",
+      "cas": [
+        "7664-93-9"
+      ],
+      "special": true,
+      "conditional": true,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "황산(Sulfuricacid;7664-93-9)(pH2.0이하인강산은특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 1,
+      "name": "불소",
+      "cas": [
+        "7782-41-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "불소(Fluorine;7782-41-4)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 2,
+      "name": "브롬",
+      "cas": [
+        "7726-95-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "브롬(Bromine;7726-95-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 3,
+      "name": "산화에틸렌",
+      "cas": [
+        "75-21-8"
+      ],
+      "special": true,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.1,
+      "basis": "weight",
+      "text": "산화에틸렌(Ethyleneoxide;75-21-8)(특별관리물질)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 4,
+      "name": "삼수소화비소",
+      "cas": [
+        "7784-42-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "삼수소화비소(Arsine;7784-42-1)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 5,
+      "name": "시안화수소",
+      "cas": [
+        "74-90-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화수소(Hydrogencyanide;74-90-8)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 6,
+      "name": "암모니아",
+      "cas": [
+        "7664-41-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "암모니아(Ammonia;7664-41-7등)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 7,
+      "name": "염소",
+      "cas": [
+        "7782-50-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "염소(Chlorine;7782-50-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 8,
+      "name": "오존",
+      "cas": [
+        "10028-15-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "오존(Ozone;10028-15-6)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 9,
+      "name": "이산화질소",
+      "cas": [
+        "10102-44-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이산화질소(nitrogendioxide;10102-44-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 10,
+      "name": "이산화황",
+      "cas": [
+        "7446-09-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이산화황(Sulfurdioxide;7446-09-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 11,
+      "name": "일산화질소",
+      "cas": [
+        "10102-43-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "일산화질소(Nitricoxide;10102-43-9)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 12,
+      "name": "일산화탄소",
+      "cas": [
+        "630-08-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "일산화탄소(Carbonmonoxide;630-08-0)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 13,
+      "name": "포스겐",
+      "cas": [
+        "75-44-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "포스겐(Phosgene;75-44-5)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 14,
+      "name": "포스핀",
+      "cas": [
+        "7803-51-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "포스핀(Phosphine;7803-51-2)"
+    },
+    {
+      "kind": "managed",
+      "group": "가스",
+      "ordinal": 15,
+      "name": "황화수소",
+      "cas": [
+        "7783-06-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "황화수소(Hydrogensulfide;7783-06-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 1,
+      "name": "글루타르알데히드",
+      "cas": [
+        "111-30-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "글루타르알데히드(Glutaraldehyde;111-30-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 2,
+      "name": "니트로글리세린",
+      "cas": [
+        "55-63-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "니트로글리세린(Nitroglycerin;55-63-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 3,
+      "name": "니트로메탄",
+      "cas": [
+        "75-52-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "니트로메탄(Nitromethane;75-52-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 4,
+      "name": "니트로벤젠",
+      "cas": [
+        "98-95-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "니트로벤젠(Nitrobenzene;98-95-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 5,
+      "name": "p-니트로아닐린",
+      "cas": [
+        "100-01-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "p-니트로아닐린(p-Nitroaniline;100-01-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 6,
+      "name": "p-니트로클로로벤젠",
+      "cas": [
+        "100-00-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "p-니트로클로로벤젠(p-Nitrochlorobenzene;100-00-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 7,
+      "name": "디니트로톨루엔",
+      "cas": [
+        "25321-14-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디니트로톨루엔(Dinitrotoluene;25321-14-6등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 8,
+      "name": "N,N-디메틸아닐린",
+      "cas": [
+        "121-69-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "N,N-디메틸아닐린(N,N-Dimethylaniline;121-69-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 9,
+      "name": "디메틸아민",
+      "cas": [
+        "124-40-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디메틸아민(Dimethylamine;124-40-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 10,
+      "name": "N,N-디메틸아세트아미드",
+      "cas": [
+        "127-19-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "N,N-디메틸아세트아미드(N,N-Dimethylacetamide;127-19-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 11,
+      "name": "디메틸포름아미드",
+      "cas": [
+        "68-12-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디메틸포름아미드(Dimethylformamide;68-12-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 12,
+      "name": "디에탄올아민",
+      "cas": [
+        "111-42-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디에탄올아민(Diethanolamine;111-42-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 13,
+      "name": "디에틸에테르",
+      "cas": [
+        "60-29-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디에틸에테르(Diethylether;60-29-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 14,
+      "name": "디에틸렌트리아민",
+      "cas": [
+        "111-40-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디에틸렌트리아민(Diethylenetriamine;111-40-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 15,
+      "name": "2-디에틸아미노에탄올",
+      "cas": [
+        "100-37-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-디에틸아미노에탄올(2-Diethylaminoethanol;100-37-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 16,
+      "name": "디에틸아민",
+      "cas": [
+        "109-89-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디에틸아민(Diethylamine;109-89-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 17,
+      "name": "1,4-디옥산",
+      "cas": [
+        "123-91-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,4-디옥산(1,4-Dioxane;123-91-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 18,
+      "name": "디이소부틸케톤",
+      "cas": [
+        "108-83-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디이소부틸케톤(Diisobutylketone;108-83-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 19,
+      "name": "1,1-디클로로-1-플루오로에탄",
+      "cas": [
+        "1717-00-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,1-디클로로-1-플루오로에탄(1,1-Dichloro-1-fluoroethane;1717-00-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 20,
+      "name": "디클로로메탄",
+      "cas": [
+        "75-09-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디클로로메탄(Dichloromethane;75-09-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 21,
+      "name": "o-디클로로벤젠",
+      "cas": [
+        "95-50-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "o-디클로로벤젠(o-Dichlorobenzene;95-50-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 22,
+      "name": "1,2-디클로로에탄",
+      "cas": [
+        "107-06-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2-디클로로에탄(1,2-Dichloroethane;107-06-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 23,
+      "name": "1,2-디클로로에틸렌",
+      "cas": [
+        "540-59-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2-디클로로에틸렌(1,2-Dichloroethylene;540-59-0등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 24,
+      "name": "1,2-디클로로프로판",
+      "cas": [
+        "78-87-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2-디클로로프로판(1,2-Dichloropropane;78-87-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 25,
+      "name": "디클로로플루오로메탄",
+      "cas": [
+        "75-43-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디클로로플루오로메탄(Dichlorofluoromethane;75-43-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 26,
+      "name": "p-디히드록시벤젠",
+      "cas": [
+        "123-31-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "p-디히드록시벤젠(p-Dihydroxybenzene;123-31-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 27,
+      "name": "메탄올",
+      "cas": [
+        "67-56-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메탄올(Methanol;67-56-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 28,
+      "name": "2-메톡시에탄올",
+      "cas": [
+        "109-86-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-메톡시에탄올(2-Methoxyethanol;109-86-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 29,
+      "name": "2-메톡시에틸아세테이트",
+      "cas": [
+        "110-49-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-메톡시에틸아세테이트(2-Methoxyethylacetate;110-49-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 30,
+      "name": "메틸n-부틸케톤",
+      "cas": [
+        "591-78-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸n-부틸케톤(Methyln-butylketone;591-78-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 31,
+      "name": "메틸n-아밀케톤",
+      "cas": [
+        "110-43-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸n-아밀케톤(Methyln-amylketone;110-43-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 32,
+      "name": "메틸아민",
+      "cas": [
+        "74-89-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸아민(Methylamine;74-89-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 33,
+      "name": "메틸아세테이트",
+      "cas": [
+        "79-20-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸아세테이트(Methylacetate;79-20-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 34,
+      "name": "메틸에틸케톤",
+      "cas": [
+        "78-93-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸에틸케톤(Methylethylketone;78-93-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 35,
+      "name": "메틸이소부틸케톤",
+      "cas": [
+        "108-10-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸이소부틸케톤(Methylisobutylketone;108-10-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 36,
+      "name": "메틸클로라이드",
+      "cas": [
+        "74-87-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸클로라이드(Methylchloride;74-87-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 37,
+      "name": "메틸클로로포름",
+      "cas": [
+        "71-55-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸클로로포름(Methylchloroform;71-55-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 38,
+      "name": "메틸렌비스(페닐이소시아네이트)",
+      "cas": [
+        "101-68-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸렌비스(페닐이소시아네이트)[Methylenebis(phenylisocyanate);101-68-8등]"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 39,
+      "name": "o-메틸시클로헥사논",
+      "cas": [
+        "583-60-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "o-메틸시클로헥사논(o-Methylcyclohexanone;583-60-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 40,
+      "name": "메틸시클로헥사놀",
+      "cas": [
+        "25639-42-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸시클로헥사놀(Methylcyclohexanol;25639-42-3등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 41,
+      "name": "무수말레산",
+      "cas": [
+        "108-31-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "무수말레산(Maleicanhydride;108-31-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 42,
+      "name": "무수프탈산",
+      "cas": [
+        "85-44-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "무수프탈산(Phthalicanhydride;85-44-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 43,
+      "name": "벤젠",
+      "cas": [
+        "71-43-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "벤젠(Benzene;71-43-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 44,
+      "name": "1,3-부타디엔",
+      "cas": [
+        "106-99-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,3-부타디엔(1,3-Butadiene;106-99-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 45,
+      "name": "n-부탄올",
+      "cas": [
+        "71-36-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "n-부탄올(n-Butanol;71-36-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 46,
+      "name": "2-부탄올",
+      "cas": [
+        "78-92-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-부탄올(2-Butanol;78-92-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 47,
+      "name": "2-부톡시에탄올",
+      "cas": [
+        "111-76-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-부톡시에탄올(2-Butoxyethanol;111-76-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 48,
+      "name": "2-부톡시에틸아세테이트",
+      "cas": [
+        "112-07-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-부톡시에틸아세테이트(2-Butoxyethylacetate;112-07-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 49,
+      "name": "n-부틸아세테이트",
+      "cas": [
+        "123-86-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "n-부틸아세테이트(n-Butylacetate;123-86-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 50,
+      "name": "1-브로모프로판",
+      "cas": [
+        "106-94-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1-브로모프로판(1-Bromopropane;106-94-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 51,
+      "name": "2-브로모프로판",
+      "cas": [
+        "75-26-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-브로모프로판(2-Bromopropane;75-26-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 52,
+      "name": "브롬화메틸",
+      "cas": [
+        "74-83-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "브롬화메틸(Methylbromide;74-83-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 53,
+      "name": "비닐아세테이트",
+      "cas": [
+        "108-05-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "비닐아세테이트(Vinylacetate;108-05-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 54,
+      "name": "사염화탄소",
+      "cas": [
+        "56-23-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "사염화탄소(Carbontetrachloride;56-23-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 55,
+      "name": "스토다드솔벤트",
+      "cas": [
+        "8052-41-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "스토다드솔벤트(Stoddardsolvent;8052-41-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 56,
+      "name": "스티렌",
+      "cas": [
+        "100-42-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "스티렌(Styrene;100-42-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 57,
+      "name": "시클로헥사논",
+      "cas": [
+        "108-94-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시클로헥사논(Cyclohexanone;108-94-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 58,
+      "name": "시클로헥사놀",
+      "cas": [
+        "108-93-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시클로헥사놀(Cyclohexanol;108-93-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 59,
+      "name": "시클로헥산",
+      "cas": [
+        "110-82-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시클로헥산(Cyclohexane;110-82-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 60,
+      "name": "시클로헥센",
+      "cas": [
+        "110-83-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시클로헥센(Cyclohexene;110-83-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 61,
+      "name": "아닐린",
+      "cas": [
+        "62-53-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아닐린[62-53-3]및그동족체(Anilineanditshomologues)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 62,
+      "name": "아세토니트릴",
+      "cas": [
+        "75-05-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아세토니트릴(Acetonitrile;75-05-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 63,
+      "name": "아세톤",
+      "cas": [
+        "67-64-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아세톤(Acetone;67-64-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 64,
+      "name": "아세트알데히드",
+      "cas": [
+        "75-07-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아세트알데히드(Acetaldehyde;75-07-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 65,
+      "name": "아크릴로니트릴",
+      "cas": [
+        "107-13-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아크릴로니트릴(Acrylonitrile;107-13-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 66,
+      "name": "아크릴아미드",
+      "cas": [
+        "79-06-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아크릴아미드(Acrylamide;79-06-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 67,
+      "name": "알릴글리시딜에테르",
+      "cas": [
+        "106-92-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "알릴글리시딜에테르(Allylglycidylether;106-92-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 68,
+      "name": "에탄올아민",
+      "cas": [
+        "141-43-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에탄올아민(Ethanolamine;141-43-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 69,
+      "name": "2-에톡시에탄올",
+      "cas": [
+        "110-80-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-에톡시에탄올(2-Ethoxyethanol;110-80-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 70,
+      "name": "2-에톡시에틸아세테이트",
+      "cas": [
+        "111-15-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-에톡시에틸아세테이트(2-Ethoxyethylacetate;111-15-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 71,
+      "name": "에틸벤젠",
+      "cas": [
+        "100-41-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸벤젠(Ethylbenzene;100-41-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 72,
+      "name": "에틸아세테이트",
+      "cas": [
+        "141-78-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸아세테이트(Ethylacetate;141-78-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 73,
+      "name": "에틸아크릴레이트",
+      "cas": [
+        "140-88-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸아크릴레이트(Ethylacrylate;140-88-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 74,
+      "name": "에틸렌글리콜",
+      "cas": [
+        "107-21-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸렌글리콜(Ethyleneglycol;107-21-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 75,
+      "name": "에틸렌글리콜디니트레이트",
+      "cas": [
+        "628-96-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸렌글리콜디니트레이트(Ethyleneglycoldinitrate;628-96-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 76,
+      "name": "에틸렌클로로히드린",
+      "cas": [
+        "107-07-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸렌클로로히드린(Ethylenechlorohydrin;107-07-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 77,
+      "name": "에틸렌이민",
+      "cas": [
+        "151-56-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸렌이민(Ethyleneimine;151-56-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 78,
+      "name": "에틸아민",
+      "cas": [
+        "75-04-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸아민(Ethylamine;75-04-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 79,
+      "name": "2,3-에폭시-1-프로판올",
+      "cas": [
+        "556-52-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2,3-에폭시-1-프로판올(2,3-Epoxy-1-propanol;556-52-5등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 80,
+      "name": "1,2-에폭시프로판",
+      "cas": [
+        "75-56-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2-에폭시프로판(1,2-Epoxypropane;75-56-9등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 81,
+      "name": "에피클로로히드린",
+      "cas": [
+        "106-89-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에피클로로히드린(Epichlorohydrin;106-89-8등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 82,
+      "name": "요오드화메틸",
+      "cas": [
+        "74-88-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "요오드화메틸(Methyliodide;74-88-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 83,
+      "name": "이소부틸아세테이트",
+      "cas": [
+        "110-19-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소부틸아세테이트(Isobutylacetate;110-19-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 84,
+      "name": "이소부틸알코올",
+      "cas": [
+        "78-83-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소부틸알코올(Isobutylalcohol;78-83-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 85,
+      "name": "이소아밀아세테이트",
+      "cas": [
+        "123-92-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소아밀아세테이트(Isoamylacetate;123-92-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 86,
+      "name": "이소아밀알코올",
+      "cas": [
+        "123-51-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소아밀알코올(Isoamylalcohol;123-51-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 87,
+      "name": "이소프로필아세테이트",
+      "cas": [
+        "108-21-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소프로필아세테이트(Isopropylacetate;108-21-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 88,
+      "name": "이소프로필알코올",
+      "cas": [
+        "67-63-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소프로필알코올(Isopropylalcohol;67-63-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 89,
+      "name": "이황화탄소",
+      "cas": [
+        "75-15-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이황화탄소(Carbondisulfide;75-15-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 90,
+      "name": "크레졸",
+      "cas": [
+        "1319-77-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "크레졸(Cresol;1319-77-3등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 91,
+      "name": "크실렌",
+      "cas": [
+        "1330-20-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "크실렌(Xylene;1330-20-7등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 92,
+      "name": "클로로벤젠",
+      "cas": [
+        "108-90-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "클로로벤젠(Chlorobenzene;108-90-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 93,
+      "name": "1,1,2,2-테트라클로로에탄",
+      "cas": [
+        "79-34-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,1,2,2-테트라클로로에탄(1,1,2,2-Tetrachloroethane;79-34-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 94,
+      "name": "테트라히드로푸란",
+      "cas": [
+        "109-99-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "테트라히드로푸란(Tetrahydrofuran;109-99-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 95,
+      "name": "톨루엔",
+      "cas": [
+        "108-88-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "톨루엔(Toluene;108-88-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 96,
+      "name": "톨루엔-2,4-디이소시아네이트",
+      "cas": [
+        "584-84-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "톨루엔-2,4-디이소시아네이트(Toluene-2,4-diisocyanate;584-84-9등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 97,
+      "name": "톨루엔-2,6-디이소시아네이트",
+      "cas": [
+        "91-08-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "톨루엔-2,6-디이소시아네이트(Toluene-2,6-diisocyanate;91-08-7등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 98,
+      "name": "트리에틸아민",
+      "cas": [
+        "121-44-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "트리에틸아민(Triethylamine;121-44-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 99,
+      "name": "트리클로로메탄",
+      "cas": [
+        "67-66-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "트리클로로메탄(Trichloromethane;67-66-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 100,
+      "name": "1,1,2-트리클로로에탄",
+      "cas": [
+        "79-00-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,1,2-트리클로로에탄(1,1,2-Trichloroethane;79-00-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 101,
+      "name": "트리클로로에틸렌",
+      "cas": [
+        "79-01-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "트리클로로에틸렌(Trichloroethylene;79-01-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 102,
+      "name": "1,2,3-트리클로로프로판",
+      "cas": [
+        "96-18-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2,3-트리클로로프로판(1,2,3-Trichloropropane;96-18-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 103,
+      "name": "퍼클로로에틸렌",
+      "cas": [
+        "127-18-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "퍼클로로에틸렌(Perchloroethylene;127-18-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 104,
+      "name": "페놀",
+      "cas": [
+        "108-95-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "페놀(Phenol;108-95-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 105,
+      "name": "펜타클로로페놀",
+      "cas": [
+        "87-86-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "펜타클로로페놀(Pentachlorophenol;87-86-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 106,
+      "name": "포름알데히드",
+      "cas": [
+        "50-00-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "포름알데히드(Formaldehyde;50-00-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 107,
+      "name": "프로필렌이민",
+      "cas": [
+        "75-55-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "프로필렌이민(Propyleneimine;75-55-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 108,
+      "name": "n-프로필아세테이트",
+      "cas": [
+        "109-60-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "n-프로필아세테이트(n-Propylacetate;109-60-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 109,
+      "name": "피리딘",
+      "cas": [
+        "110-86-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "피리딘(Pyridine;110-86-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 110,
+      "name": "헥사메틸렌디이소시아네이트",
+      "cas": [
+        "822-06-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "헥사메틸렌디이소시아네이트(Hexamethylenediisocyanate;822-06-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 111,
+      "name": "n-헥산",
+      "cas": [
+        "110-54-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "n-헥산(n-Hexane;110-54-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 112,
+      "name": "n-헵탄",
+      "cas": [
+        "142-82-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "n-헵탄(n-Heptane;142-82-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 113,
+      "name": "황산디메틸",
+      "cas": [
+        "77-78-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "황산디메틸(Dimethylsulfate;77-78-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "유기화합물",
+      "ordinal": 114,
+      "name": "히드라진",
+      "cas": [
+        "302-01-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "히드라진(Hydrazine;302-01-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 1,
+      "name": "구리",
+      "cas": [
+        "7440-50-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "구리(Copper;7440-50-8)(분진,미스트,흄)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 2,
+      "name": "납",
+      "cas": [
+        "7439-92-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "납[7439-92-1]및그무기화합물(Leadanditsinorganiccompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 3,
+      "name": "니켈",
+      "cas": [
+        "7440-02-0",
+        "13463-39-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "니켈[7440-02-0]및그무기화합물,니켈카르보닐[13463-39-3](Nickelanditsinorganiccompounds,Nickelcarbonyl)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 4,
+      "name": "망간",
+      "cas": [
+        "7439-96-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "망간[7439-96-5]및그무기화합물(Manganeseanditsinorganiccompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 5,
+      "name": "바륨",
+      "cas": [
+        "7440-39-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "바륨[7440-39-3]및그가용성화합물(Bariumanditssolublecompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 6,
+      "name": "백금",
+      "cas": [
+        "7440-06-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "백금[7440-06-4]및그가용성염(Platinumanditssolublesalts)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 7,
+      "name": "산화마그네슘",
+      "cas": [
+        "1309-48-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "산화마그네슘(Magnesiumoxide;1309-48-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 8,
+      "name": "산화아연",
+      "cas": [
+        "1314-13-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "산화아연(Zincoxide;1314-13-2)(분진,흄)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 9,
+      "name": "산화철",
+      "cas": [
+        "1309-37-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "산화철(Ironoxide;1309-37-1등)(분진,흄)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 10,
+      "name": "셀레늄",
+      "cas": [
+        "7782-49-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "셀레늄[7782-49-2]및그화합물(Seleniumanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 11,
+      "name": "수은",
+      "cas": [
+        "7439-97-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "수은[7439-97-6]및그화합물(Mercuryanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 12,
+      "name": "안티몬",
+      "cas": [
+        "7440-36-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "안티몬[7440-36-0]및그화합물(Antimonyanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 13,
+      "name": "알루미늄",
+      "cas": [
+        "7429-90-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "알루미늄[7429-90-5]및그화합물(Aluminumanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 14,
+      "name": "오산화바나듐",
+      "cas": [
+        "1314-62-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "오산화바나듐(Vanadiumpentoxide;1314-62-1)(분진,흄)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 15,
+      "name": "요오드",
+      "cas": [
+        "7553-56-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "요오드[7553-56-2]및요오드화물(Iodineandiodides)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 16,
+      "name": "인듐",
+      "cas": [
+        "7440-74-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "인듐[7440-74-6]및그화합물(Indiumanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 17,
+      "name": "은",
+      "cas": [
+        "7440-22-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "은[7440-22-4]및그가용성화합물(Silveranditssolublecompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 18,
+      "name": "이산화티타늄",
+      "cas": [
+        "13463-67-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "이산화티타늄(Titaniumdioxide;13463-67-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 19,
+      "name": "주석",
+      "cas": [
+        "7440-31-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "주석[7440-31-5]및그화합물(Tinanditscompounds)(수소화주석은제외한다)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 20,
+      "name": "지르코늄",
+      "cas": [
+        "7440-67-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "지르코늄[7440-67-7]및그화합물(Zirconiumanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 21,
+      "name": "카드뮴",
+      "cas": [
+        "7440-43-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "카드뮴[7440-43-9]및그화합물(Cadmiumanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 22,
+      "name": "코발트",
+      "cas": [
+        "7440-48-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "코발트[7440-48-4]및그무기화합물(Cobaltanditsinorganiccompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 23,
+      "name": "크롬",
+      "cas": [
+        "7440-47-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "크롬[7440-47-3]및그무기화합물(Chromiumanditsinorganiccompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "금속",
+      "ordinal": 24,
+      "name": "텅스텐",
+      "cas": [
+        "7440-33-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "텅스텐[7440-33-7]및그화합물(Tungstenanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 1,
+      "name": "개미산",
+      "cas": [
+        "64-18-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "개미산(Formicacid;64-18-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 2,
+      "name": "과산화수소",
+      "cas": [
+        "7722-84-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "과산화수소(Hydrogenperoxide;7722-84-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 3,
+      "name": "무수초산",
+      "cas": [
+        "108-24-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "무수초산(Aceticanhydride;108-24-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 4,
+      "name": "불화수소",
+      "cas": [
+        "7664-39-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "불화수소(Hydrogenfluoride;7664-39-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 5,
+      "name": "브롬화수소",
+      "cas": [
+        "10035-10-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "브롬화수소(Hydrogenbromide;10035-10-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 6,
+      "name": "수산화나트륨",
+      "cas": [
+        "1310-73-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "수산화나트륨(Sodiumhydroxide;1310-73-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 7,
+      "name": "수산화칼륨",
+      "cas": [
+        "1310-58-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "수산화칼륨(Potassiumhydroxide;1310-58-3)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 8,
+      "name": "시안화나트륨",
+      "cas": [
+        "143-33-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화나트륨(Sodiumcyanide;143-33-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 9,
+      "name": "시안화칼륨",
+      "cas": [
+        "151-50-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화칼륨(Potassiumcyanide;151-50-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 10,
+      "name": "시안화칼슘",
+      "cas": [
+        "592-01-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화칼슘(Calciumcyanide;592-01-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 11,
+      "name": "아크릴산",
+      "cas": [
+        "79-10-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "아크릴산(Acrylicacid;79-10-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 12,
+      "name": "염화수소",
+      "cas": [
+        "7647-01-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "염화수소(Hydrogenchloride;7647-01-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 13,
+      "name": "인산",
+      "cas": [
+        "7664-38-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "인산(Phosphoricacid;7664-38-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 14,
+      "name": "질산",
+      "cas": [
+        "7697-37-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "질산(Nitricacid;7697-37-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 15,
+      "name": "초산",
+      "cas": [
+        "64-19-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "초산(Aceticacid;64-19-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 16,
+      "name": "트리클로로아세트산",
+      "cas": [
+        "76-03-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "트리클로로아세트산(Trichloroaceticacid;76-03-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "산알칼리",
+      "ordinal": 17,
+      "name": "황산",
+      "cas": [
+        "7664-93-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "황산(Sulfuricacid;7664-93-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 1,
+      "name": "불소",
+      "cas": [
+        "7782-41-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "불소(Fluorine;7782-41-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 2,
+      "name": "브롬",
+      "cas": [
+        "7726-95-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "브롬(Bromine;7726-95-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 3,
+      "name": "산화에틸렌",
+      "cas": [
+        "75-21-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "산화에틸렌(Ethyleneoxide;75-21-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 4,
+      "name": "삼수소화비소",
+      "cas": [
+        "7784-42-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "삼수소화비소(Arsine;7784-42-1)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 5,
+      "name": "시안화수소",
+      "cas": [
+        "74-90-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시안화수소(Hydrogencyanide;74-90-8)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 6,
+      "name": "암모니아",
+      "cas": [
+        "7664-41-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "암모니아(Ammonia;7664-41-7등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 7,
+      "name": "염소",
+      "cas": [
+        "7782-50-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "염소(Chlorine;7782-50-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 8,
+      "name": "오존",
+      "cas": [
+        "10028-15-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "오존(Ozone;10028-15-6)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 9,
+      "name": "이산화질소",
+      "cas": [
+        "10102-44-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이산화질소(nitrogendioxide;10102-44-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 10,
+      "name": "이산화황",
+      "cas": [
+        "7446-09-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이산화황(Sulfurdioxide;7446-09-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 11,
+      "name": "일산화질소",
+      "cas": [
+        "10102-43-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "일산화질소(Nitricoxide;10102-43-9)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 12,
+      "name": "일산화탄소",
+      "cas": [
+        "630-08-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "일산화탄소(Carbonmonoxide;630-08-0)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 13,
+      "name": "포스겐",
+      "cas": [
+        "75-44-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "포스겐(Phosgene;75-44-5)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 14,
+      "name": "포스핀",
+      "cas": [
+        "7803-51-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "포스핀(Phosphine;7803-51-2)"
+    },
+    {
+      "kind": "measurement",
+      "group": "가스",
+      "ordinal": 15,
+      "name": "황화수소",
+      "cas": [
+        "7783-06-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "황화수소(Hydrogensulfide;7783-06-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 1,
+      "name": "α-나프틸아민",
+      "cas": [
+        "134-32-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "α-나프틸아민[134-32-7]및그염(α-naphthylamineanditssalts)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 2,
+      "name": "디아니시딘",
+      "cas": [
+        "119-90-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디아니시딘[119-90-4]및그염(Dianisidineanditssalts)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 3,
+      "name": "디클로로벤지딘",
+      "cas": [
+        "91-94-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디클로로벤지딘[91-94-1]및그염(Dichlorobenzidineanditssalts)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 4,
+      "name": "베릴륨",
+      "cas": [
+        "7440-41-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "베릴륨[7440-41-7]및그화합물(Berylliumanditscompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 5,
+      "name": "벤조트리클로라이드",
+      "cas": [
+        "98-07-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.5,
+      "basis": "weight",
+      "text": "벤조트리클로라이드(Benzotrichloride;98-07-7)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 6,
+      "name": "비소",
+      "cas": [
+        "7440-38-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "비소[7440-38-2]및그무기화합물(Arsenicanditsinorganiccompounds)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 7,
+      "name": "염화비닐",
+      "cas": [
+        "75-01-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "염화비닐(Vinylchloride;75-01-4)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 8,
+      "name": "콜타르피치",
+      "cas": [
+        "65996-93-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "콜타르피치[65996-93-2]휘발물(Coaltarpitchvolatilesasbenzenesolubleaerosol)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 10,
+      "name": "크롬산아연",
+      "cas": [
+        "13530-65-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "크롬산아연(Zincchromates;13530-65-9등)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 11,
+      "name": "o-톨리딘",
+      "cas": [
+        "119-93-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "o-톨리딘[119-93-7]및그염(o-Tolidineanditssalts)"
+    },
+    {
+      "kind": "measurement",
+      "group": "허가대상",
+      "ordinal": 12,
+      "name": "황화니켈류",
+      "cas": [
+        "12035-72-2",
+        "16812-54-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "황화니켈류(Nickelsulfides;12035-72-2,16812-54-7)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 1,
+      "name": "가솔린",
+      "cas": [
+        "8006-61-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "가솔린(Gasoline;8006-61-9)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 2,
+      "name": "글루타르알데히드",
+      "cas": [
+        "111-30-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "글루타르알데히드(Glutaraldehyde;111-30-8)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 3,
+      "name": "β-나프틸아민",
+      "cas": [
+        "91-59-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "β-나프틸아민(β-Naphthylamine;91-59-8)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 4,
+      "name": "니트로글리세린",
+      "cas": [
+        "55-63-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "니트로글리세린(Nitroglycerin;55-63-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 5,
+      "name": "니트로메탄",
+      "cas": [
+        "75-52-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "니트로메탄(Nitromethane;75-52-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 6,
+      "name": "니트로벤젠",
+      "cas": [
+        "98-95-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "니트로벤젠(Nitrobenzene;98-95-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 7,
+      "name": "p-니트로아닐린",
+      "cas": [
+        "100-01-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "p-니트로아닐린(p-Nitroaniline;100-01-6)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 8,
+      "name": "p-니트로클로로벤젠",
+      "cas": [
+        "100-00-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "p-니트로클로로벤젠(p-Nitrochlorobenzene;100-00-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 9,
+      "name": "디니트로톨루엔",
+      "cas": [
+        "25321-14-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디니트로톨루엔(Dinitrotoluene;25321-14-6등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 10,
+      "name": "N,N-디메틸아닐린",
+      "cas": [
+        "121-69-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "N,N-디메틸아닐린(N,N-Dimethylaniline;121-69-7)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 11,
+      "name": "p-디메틸아미노아조벤젠",
+      "cas": [
+        "60-11-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "p-디메틸아미노아조벤젠(p-Dimethylaminoazobenzene;60-11-7)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 12,
+      "name": "N,N-디메틸아세트아미드",
+      "cas": [
+        "127-19-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "N,N-디메틸아세트아미드(N,N-Dimethylacetamide;127-19-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 13,
+      "name": "디메틸포름아미드",
+      "cas": [
+        "68-12-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디메틸포름아미드(Dimethylformamide;68-12-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 14,
+      "name": "디에틸에테르",
+      "cas": [
+        "60-29-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디에틸에테르(Diethylether;60-29-7)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 15,
+      "name": "디에틸렌트리아민",
+      "cas": [
+        "111-40-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디에틸렌트리아민(Diethylenetriamine;111-40-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 16,
+      "name": "1,4-디옥산",
+      "cas": [
+        "123-91-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,4-디옥산(1,4-Dioxane;123-91-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 17,
+      "name": "디이소부틸케톤",
+      "cas": [
+        "108-83-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디이소부틸케톤(Diisobutylketone;108-83-8)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 18,
+      "name": "디클로로메탄",
+      "cas": [
+        "75-09-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디클로로메탄(Dichloromethane;75-09-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 19,
+      "name": "o-디클로로벤젠",
+      "cas": [
+        "95-50-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "o-디클로로벤젠(o-Dichlorobenzene;95-50-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 20,
+      "name": "1,2-디클로로에탄",
+      "cas": [
+        "107-06-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2-디클로로에탄(1,2-Dichloroethane;107-06-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 21,
+      "name": "1,2-디클로로에틸렌",
+      "cas": [
+        "540-59-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2-디클로로에틸렌(1,2-Dichloroethylene;540-59-0등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 22,
+      "name": "1,2-디클로로프로판",
+      "cas": [
+        "78-87-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2-디클로로프로판(1,2-Dichloropropane;78-87-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 23,
+      "name": "디클로로플루오로메탄",
+      "cas": [
+        "75-43-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "디클로로플루오로메탄(Dichlorofluoromethane;75-43-4)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 24,
+      "name": "p-디히드록시벤젠",
+      "cas": [
+        "123-31-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "p-디히드록시벤젠(p-dihydroxybenzene;123-31-9)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 25,
+      "name": "마젠타",
+      "cas": [
+        "569-61-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "마젠타(Magenta;569-61-9)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 26,
+      "name": "메탄올",
+      "cas": [
+        "67-56-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메탄올(Methanol;67-56-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 27,
+      "name": "2-메톡시에탄올",
+      "cas": [
+        "109-86-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-메톡시에탄올(2-Methoxyethanol;109-86-4)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 28,
+      "name": "2-메톡시에틸아세테이트",
+      "cas": [
+        "110-49-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-메톡시에틸아세테이트(2-Methoxyethylacetate;110-49-6)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 29,
+      "name": "메틸n-부틸케톤",
+      "cas": [
+        "591-78-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸n-부틸케톤(Methyln-butylketone;591-78-6)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 30,
+      "name": "메틸n-아밀케톤",
+      "cas": [
+        "110-43-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸n-아밀케톤(Methyln-amylketone;110-43-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 31,
+      "name": "메틸에틸케톤",
+      "cas": [
+        "78-93-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸에틸케톤(Methylethylketone;78-93-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 32,
+      "name": "메틸이소부틸케톤",
+      "cas": [
+        "108-10-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸이소부틸케톤(Methylisobutylketone;108-10-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 33,
+      "name": "메틸클로라이드",
+      "cas": [
+        "74-87-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸클로라이드(Methylchloride;74-87-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 34,
+      "name": "메틸클로로포름",
+      "cas": [
+        "71-55-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸클로로포름(Methylchloroform;71-55-6)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 35,
+      "name": "메틸렌비스(페닐이소시아네이트)",
+      "cas": [
+        "101-68-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸렌비스(페닐이소시아네이트)[Methylenebis(phenylisocyanate);101-68-8등]"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 36,
+      "name": "4,4'-메틸렌비스(2-클로로아닐린)",
+      "cas": [
+        "101-14-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "4,4'-메틸렌비스(2-클로로아닐린)[4,4'-Methylenebis(2-chloroaniline);101-14-4]"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 37,
+      "name": "o-메틸시클로헥사논",
+      "cas": [
+        "583-60-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "o-메틸시클로헥사논(o-Methylcyclohexanone;583-60-8)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 38,
+      "name": "메틸시클로헥사놀",
+      "cas": [
+        "25639-42-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "메틸시클로헥사놀(Methylcyclohexanol;25639-42-3등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 39,
+      "name": "무수말레산",
+      "cas": [
+        "108-31-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "무수말레산(Maleicanhydride;108-31-6)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 40,
+      "name": "무수프탈산",
+      "cas": [
+        "85-44-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "무수프탈산(Phthalicanhydride;85-44-9)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 41,
+      "name": "벤젠",
+      "cas": [
+        "71-43-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "벤젠(Benzene;71-43-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 42,
+      "name": "벤지딘및그염",
+      "cas": [
+        "92-87-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "벤지딘및그염(Benzidineanditssalts;92-87-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 43,
+      "name": "1,3-부타디엔",
+      "cas": [
+        "106-99-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,3-부타디엔(1,3-Butadiene;106-99-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 44,
+      "name": "n-부탄올",
+      "cas": [
+        "71-36-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "n-부탄올(n-Butanol;71-36-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 45,
+      "name": "2-부탄올",
+      "cas": [
+        "78-92-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-부탄올(2-Butanol;78-92-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 46,
+      "name": "2-부톡시에탄올",
+      "cas": [
+        "111-76-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-부톡시에탄올(2-Butoxyethanol;111-76-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 47,
+      "name": "2-부톡시에틸아세테이트",
+      "cas": [
+        "112-07-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-부톡시에틸아세테이트(2-Butoxyethylacetate;112-07-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 48,
+      "name": "1-브로모프로판",
+      "cas": [
+        "106-94-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1-브로모프로판(1-Bromopropane;106-94-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 49,
+      "name": "2-브로모프로판",
+      "cas": [
+        "75-26-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-브로모프로판(2-Bromopropane;75-26-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 50,
+      "name": "브롬화메틸",
+      "cas": [
+        "74-83-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "브롬화메틸(Methylbromide;74-83-9)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 51,
+      "name": "비스(클로로메틸)에테르",
+      "cas": [
+        "542-88-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "비스(클로로메틸)에테르(bis(Chloromethyl)ether;542-88-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 52,
+      "name": "사염화탄소",
+      "cas": [
+        "56-23-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "사염화탄소(Carbontetrachloride;56-23-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 53,
+      "name": "스토다드솔벤트",
+      "cas": [
+        "8052-41-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "스토다드솔벤트(Stoddardsolvent;8052-41-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 54,
+      "name": "스티렌",
+      "cas": [
+        "100-42-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "스티렌(Styrene;100-42-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 55,
+      "name": "시클로헥사논",
+      "cas": [
+        "108-94-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시클로헥사논(Cyclohexanone;108-94-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 56,
+      "name": "시클로헥사놀",
+      "cas": [
+        "108-93-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시클로헥사놀(Cyclohexanol;108-93-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 57,
+      "name": "시클로헥산",
+      "cas": [
+        "110-82-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시클로헥산(Cyclohexane;110-82-7)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 58,
+      "name": "시클로헥센",
+      "cas": [
+        "110-83-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시클로헥센(Cyclohexene;110-83-8)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 59,
+      "name": "아닐린",
+      "cas": [
+        "62-53-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아닐린[62-53-3]및그동족체(Anilineanditshomologues)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 60,
+      "name": "아세토니트릴",
+      "cas": [
+        "75-05-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아세토니트릴(Acetonitrile;75-05-8)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 61,
+      "name": "아세톤",
+      "cas": [
+        "67-64-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아세톤(Acetone;67-64-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 62,
+      "name": "아세트알데히드",
+      "cas": [
+        "75-07-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아세트알데히드(Acetaldehyde;75-07-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 63,
+      "name": "아우라민",
+      "cas": [
+        "492-80-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아우라민(Auramine;492-80-8)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 64,
+      "name": "아크릴로니트릴",
+      "cas": [
+        "107-13-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아크릴로니트릴(Acrylonitrile;107-13-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 65,
+      "name": "아크릴아미드",
+      "cas": [
+        "79-06-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "아크릴아미드(Acrylamide;79-06-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 66,
+      "name": "2-에톡시에탄올",
+      "cas": [
+        "110-80-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-에톡시에탄올(2-Ethoxyethanol;110-80-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 67,
+      "name": "2-에톡시에틸아세테이트",
+      "cas": [
+        "111-15-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2-에톡시에틸아세테이트(2-Ethoxyethylacetate;111-15-9)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 68,
+      "name": "에틸벤젠",
+      "cas": [
+        "100-41-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸벤젠(Ethylbenzene;100-41-4)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 69,
+      "name": "에틸아크릴레이트",
+      "cas": [
+        "140-88-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸아크릴레이트(Ethylacrylate;140-88-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 70,
+      "name": "에틸렌글리콜",
+      "cas": [
+        "107-21-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸렌글리콜(Ethyleneglycol;107-21-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 71,
+      "name": "에틸렌글리콜디니트레이트",
+      "cas": [
+        "628-96-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸렌글리콜디니트레이트(Ethyleneglycoldinitrate;628-96-6)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 72,
+      "name": "에틸렌클로로히드린",
+      "cas": [
+        "107-07-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸렌클로로히드린(Ethylenechlorohydrin;107-07-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 73,
+      "name": "에틸렌이민",
+      "cas": [
+        "151-56-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에틸렌이민(Ethyleneimine;151-56-4)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 74,
+      "name": "2,3-에폭시-1-프로판올",
+      "cas": [
+        "556-52-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "2,3-에폭시-1-프로판올(2,3-Epoxy-1-propanol;556-52-5등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 75,
+      "name": "에피클로로히드린",
+      "cas": [
+        "106-89-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "에피클로로히드린(Epichlorohydrin;106-89-8등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 76,
+      "name": "염소화비페닐",
+      "cas": [
+        "53469-21-9",
+        "11097-69-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "염소화비페닐(Polychlorobiphenyls;53469-21-9,11097-69-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 77,
+      "name": "요오드화메틸",
+      "cas": [
+        "74-88-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "요오드화메틸(Methyliodide;74-88-4)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 78,
+      "name": "이소부틸알코올",
+      "cas": [
+        "78-83-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소부틸알코올(Isobutylalcohol;78-83-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 79,
+      "name": "이소아밀아세테이트",
+      "cas": [
+        "123-92-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소아밀아세테이트(Isoamylacetate;123-92-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 80,
+      "name": "이소아밀알코올",
+      "cas": [
+        "123-51-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소아밀알코올(Isoamylalcohol;123-51-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 81,
+      "name": "이소프로필알코올",
+      "cas": [
+        "67-63-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이소프로필알코올(Isopropylalcohol;67-63-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 82,
+      "name": "이황화탄소",
+      "cas": [
+        "75-15-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이황화탄소(Carbondisulfide;75-15-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 83,
+      "name": "콜타르",
+      "cas": [
+        "8007-45-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "콜타르(Coaltar;8007-45-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 84,
+      "name": "크레졸",
+      "cas": [
+        "1319-77-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "크레졸(Cresol;1319-77-3등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 85,
+      "name": "크실렌",
+      "cas": [
+        "1330-20-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "크실렌(Xylene;1330-20-7등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 86,
+      "name": "클로로메틸메틸에테르",
+      "cas": [
+        "107-30-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "클로로메틸메틸에테르(Chloromethylmethylether;107-30-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 87,
+      "name": "클로로벤젠",
+      "cas": [
+        "108-90-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "클로로벤젠(Chlorobenzene;108-90-7)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 88,
+      "name": "테레빈유",
+      "cas": [
+        "8006-64-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "테레빈유(Turpentineoil;8006-64-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 89,
+      "name": "1,1,2,2-테트라클로로에탄",
+      "cas": [
+        "79-34-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,1,2,2-테트라클로로에탄(1,1,2,2-Tetrachloroethane;79-34-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 90,
+      "name": "테트라히드로푸란",
+      "cas": [
+        "109-99-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "테트라히드로푸란(Tetrahydrofuran;109-99-9)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 91,
+      "name": "톨루엔",
+      "cas": [
+        "108-88-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "톨루엔(Toluene;108-88-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 92,
+      "name": "톨루엔-2,4-디이소시아네이트",
+      "cas": [
+        "584-84-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "톨루엔-2,4-디이소시아네이트(Toluene-2,4-diisocyanate;584-84-9등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 93,
+      "name": "톨루엔-2,6-디이소시아네이트",
+      "cas": [
+        "91-08-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "톨루엔-2,6-디이소시아네이트(Toluene-2,6-diisocyanate;91-08-7등)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 94,
+      "name": "트리클로로메탄",
+      "cas": [
+        "67-66-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "트리클로로메탄(Trichloromethane;67-66-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 95,
+      "name": "1,1,2-트리클로로에탄",
+      "cas": [
+        "79-00-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,1,2-트리클로로에탄(1,1,2-Trichloroethane;79-00-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 96,
+      "name": "트리클로로에틸렌",
+      "cas": [
+        "79-01-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "트리클로로에틸렌(Trichloroethylene(TCE);79-01-6)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 97,
+      "name": "1,2,3-트리클로로프로판",
+      "cas": [
+        "96-18-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "1,2,3-트리클로로프로판(1,2,3-Trichloropropane;96-18-4)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 98,
+      "name": "퍼클로로에틸렌",
+      "cas": [
+        "127-18-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "퍼클로로에틸렌(Perchloroethylene;127-18-4)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 99,
+      "name": "페놀",
+      "cas": [
+        "108-95-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "페놀(Phenol;108-95-2)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 100,
+      "name": "펜타클로로페놀",
+      "cas": [
+        "87-86-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "펜타클로로페놀(Pentachlorophenol;87-86-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 101,
+      "name": "포름알데히드",
+      "cas": [
+        "50-00-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "포름알데히드(Formaldehyde;50-00-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 102,
+      "name": "β-프로피오락톤",
+      "cas": [
+        "57-57-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "β-프로피오락톤(β-Propiolactone;57-57-8)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 103,
+      "name": "o-프탈로디니트릴",
+      "cas": [
+        "91-15-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "o-프탈로디니트릴(o-Phthalodinitrile;91-15-6)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 104,
+      "name": "피리딘",
+      "cas": [
+        "110-86-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "피리딘(Pyridine;110-86-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 105,
+      "name": "헥사메틸렌디이소시아네이트",
+      "cas": [
+        "822-06-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "헥사메틸렌디이소시아네이트(Hexamethylenediisocyanate;822-06-0)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 106,
+      "name": "n-헥산",
+      "cas": [
+        "110-54-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "n-헥산(n-Hexane;110-54-3)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 107,
+      "name": "n-헵탄",
+      "cas": [
+        "142-82-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "n-헵탄(n-Heptane;142-82-5)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 108,
+      "name": "황산디메틸",
+      "cas": [
+        "77-78-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "황산디메틸(Dimethylsulfate;77-78-1)"
+    },
+    {
+      "kind": "health",
+      "group": "유기화합물",
+      "ordinal": 109,
+      "name": "히드라진",
+      "cas": [
+        "302-01-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "히드라진(Hydrazine;302-01-2)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 1,
+      "name": "구리",
+      "cas": [
+        "7440-50-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "구리(Copper;7440-50-8)(분진,미스트,흄)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 2,
+      "name": "납",
+      "cas": [
+        "7439-92-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "납[7439-92-1]및그무기화합물(Leadanditsinorganiccompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 3,
+      "name": "니켈",
+      "cas": [
+        "7440-02-0",
+        "13463-39-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "니켈[7440-02-0]및그무기화합물,니켈카르보닐[13463-39-3](Nickelanditsinorganiccompounds,Nickelcarbonyl)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 4,
+      "name": "망간",
+      "cas": [
+        "7439-96-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "망간[7439-96-5]및그무기화합물(Manganeseanditsinorganiccompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 5,
+      "name": "사알킬납",
+      "cas": [
+        "78-00-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "사알킬납(Tetraalkyllead;78-00-2등)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 6,
+      "name": "산화아연",
+      "cas": [
+        "1314-13-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "산화아연(Zincoxide;1314-13-2)(분진,흄)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 7,
+      "name": "산화철",
+      "cas": [
+        "1309-37-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "산화철(Ironoxide;1309-37-1등)(분진,흄)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 8,
+      "name": "삼산화비소",
+      "cas": [
+        "1327-53-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "삼산화비소(Arsenictrioxide;1327-53-3)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 9,
+      "name": "수은",
+      "cas": [
+        "7439-97-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "수은[7439-97-6]및그화합물(Mercuryanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 10,
+      "name": "안티몬",
+      "cas": [
+        "7440-36-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "안티몬[7440-36-0]및그화합물(Antimonyanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 11,
+      "name": "알루미늄",
+      "cas": [
+        "7429-90-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "알루미늄[7429-90-5]및그화합물(Aluminumanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 12,
+      "name": "오산화바나듐",
+      "cas": [
+        "1314-62-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "오산화바나듐(Vanadiumpentoxide;1314-62-1)(분진,흄)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 13,
+      "name": "요오드",
+      "cas": [
+        "7553-56-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "요오드[7553-56-2]및요오드화물(Iodineandiodides)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 14,
+      "name": "인듐",
+      "cas": [
+        "7440-74-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "인듐[7440-74-6]및그화합물(Indiumanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 15,
+      "name": "주석",
+      "cas": [
+        "7440-31-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "주석[7440-31-5]및그화합물(Tinanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 16,
+      "name": "지르코늄",
+      "cas": [
+        "7440-67-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "지르코늄[7440-67-7]및그화합물(Zirconiumanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 17,
+      "name": "카드뮴",
+      "cas": [
+        "7440-43-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "카드뮴[7440-43-9]및그화합물(Cadmiumanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 18,
+      "name": "코발트",
+      "cas": [
+        "7440-48-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "코발트(Cobalt;7440-48-4)(분진,흄)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 19,
+      "name": "크롬",
+      "cas": [
+        "7440-47-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "크롬[7440-47-3]및그화합물(Chromiumanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "금속",
+      "ordinal": 20,
+      "name": "텅스텐",
+      "cas": [
+        "7440-33-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "텅스텐[7440-33-7]및그화합물(Tungstenanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "산알칼리",
+      "ordinal": 1,
+      "name": "무수초산",
+      "cas": [
+        "108-24-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "무수초산(Aceticanhydride;108-24-7)"
+    },
+    {
+      "kind": "health",
+      "group": "산알칼리",
+      "ordinal": 2,
+      "name": "불화수소",
+      "cas": [
+        "7664-39-3"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "불화수소(Hydrogenfluoride;7664-39-3)"
+    },
+    {
+      "kind": "health",
+      "group": "산알칼리",
+      "ordinal": 3,
+      "name": "시안화나트륨",
+      "cas": [
+        "143-33-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화나트륨(Sodiumcyanide;143-33-9)"
+    },
+    {
+      "kind": "health",
+      "group": "산알칼리",
+      "ordinal": 4,
+      "name": "시안화칼륨",
+      "cas": [
+        "151-50-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "시안화칼륨(Potassiumcyanide;151-50-8)"
+    },
+    {
+      "kind": "health",
+      "group": "산알칼리",
+      "ordinal": 5,
+      "name": "염화수소",
+      "cas": [
+        "7647-01-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "염화수소(Hydrogenchloride;7647-01-0)"
+    },
+    {
+      "kind": "health",
+      "group": "산알칼리",
+      "ordinal": 6,
+      "name": "질산",
+      "cas": [
+        "7697-37-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "질산(Nitricacid;7697-37-2)"
+    },
+    {
+      "kind": "health",
+      "group": "산알칼리",
+      "ordinal": 7,
+      "name": "트리클로로아세트산",
+      "cas": [
+        "76-03-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "트리클로로아세트산(Trichloroaceticacid;76-03-9)"
+    },
+    {
+      "kind": "health",
+      "group": "산알칼리",
+      "ordinal": 8,
+      "name": "황산",
+      "cas": [
+        "7664-93-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "황산(Sulfuricacid;7664-93-9)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 1,
+      "name": "불소",
+      "cas": [
+        "7782-41-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "불소(Fluorine;7782-41-4)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 2,
+      "name": "브롬",
+      "cas": [
+        "7726-95-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "브롬(Bromine;7726-95-6)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 3,
+      "name": "산화에틸렌",
+      "cas": [
+        "75-21-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "산화에틸렌(Ethyleneoxide;75-21-8)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 4,
+      "name": "삼수소화비소",
+      "cas": [
+        "7784-42-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "삼수소화비소(Arsine;7784-42-1)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 5,
+      "name": "시안화수소",
+      "cas": [
+        "74-90-8"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "시안화수소(Hydrogencyanide;74-90-8)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 6,
+      "name": "염소",
+      "cas": [
+        "7782-50-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "염소(Chlorine;7782-50-5)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 7,
+      "name": "오존",
+      "cas": [
+        "10028-15-6"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "오존(Ozone;10028-15-6)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 8,
+      "name": "이산화질소",
+      "cas": [
+        "10102-44-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이산화질소(nitrogendioxide;10102-44-0)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 9,
+      "name": "이산화황",
+      "cas": [
+        "7446-09-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "이산화황(Sulfurdioxide;7446-09-5)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 10,
+      "name": "일산화질소",
+      "cas": [
+        "10102-43-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "일산화질소(Nitricoxide;10102-43-9)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 11,
+      "name": "일산화탄소",
+      "cas": [
+        "630-08-0"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "일산화탄소(Carbonmonoxide;630-08-0)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 12,
+      "name": "포스겐",
+      "cas": [
+        "75-44-5"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "포스겐(Phosgene;75-44-5)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 13,
+      "name": "포스핀",
+      "cas": [
+        "7803-51-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "포스핀(Phosphine;7803-51-2)"
+    },
+    {
+      "kind": "health",
+      "group": "가스",
+      "ordinal": 14,
+      "name": "황화수소",
+      "cas": [
+        "7783-06-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "volume",
+      "text": "황화수소(Hydrogensulfide;7783-06-4)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 1,
+      "name": "α-나프틸아민",
+      "cas": [
+        "134-32-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "α-나프틸아민[134-32-7]및그염(α-naphthylamineanditssalts)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 2,
+      "name": "디아니시딘",
+      "cas": [
+        "119-90-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디아니시딘[119-90-4]및그염(Dianisidineanditssalts)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 3,
+      "name": "디클로로벤지딘",
+      "cas": [
+        "91-94-1"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "디클로로벤지딘[91-94-1]및그염(Dichlorobenzidineanditssalts)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 4,
+      "name": "베릴륨",
+      "cas": [
+        "7440-41-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "베릴륨[7440-41-7]및그화합물(Berylliumanditscompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 5,
+      "name": "벤조트리클로라이드",
+      "cas": [
+        "98-07-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 0.5,
+      "basis": "weight",
+      "text": "벤조트리클로라이드(Benzotrichloride;98-07-7)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 6,
+      "name": "비소",
+      "cas": [
+        "7440-38-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "비소[7440-38-2]및그무기화합물(Arsenicanditsinorganiccompounds)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 7,
+      "name": "염화비닐",
+      "cas": [
+        "75-01-4"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "염화비닐(Vinylchloride;75-01-4)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 8,
+      "name": "콜타르피치",
+      "cas": [
+        "65996-93-2"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "콜타르피치[65996-93-2]휘발물(코크스제조또는취급업무)(Coaltarpitchvolatiles)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 10,
+      "name": "크롬산아연",
+      "cas": [
+        "13530-65-9"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "크롬산아연(Zincchromates;13530-65-9등)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 11,
+      "name": "o-톨리딘",
+      "cas": [
+        "119-93-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": true,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "o-톨리딘[119-93-7]및그염(o-Tolidineanditssalts)"
+    },
+    {
+      "kind": "health",
+      "group": "허가대상",
+      "ordinal": 12,
+      "name": "황화니켈류",
+      "cas": [
+        "12035-72-2",
+        "16812-54-7"
+      ],
+      "special": false,
+      "conditional": false,
+      "family": false,
+      "threshold": 1,
+      "basis": "weight",
+      "text": "황화니켈류(Nickelsulfides;12035-72-2,16812-54-7)"
+    }
+  ],
+  "coverage": "별표에 명시된 화학물질 CAS만 매칭. 화합물군·이성질체 확장, 분진·물리적 인자·야간작업 및 작업장 적용 여부는 별도 확인."
+}

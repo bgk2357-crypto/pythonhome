@@ -1,0 +1,12 @@
+import { company, navigation } from "./content";
+import { signInPath, signOutPath, getUser } from "./auth";
+import { NavigationMenu } from "./navigation-menu";
+export function Logo() { return <a className="brand" href="/" aria-label="Argo&Health Lab Home"><span className="brand-symbol" aria-hidden="true"><span>A</span><i>+</i></span><span><strong>Argo<span>&</span>Health Lab</strong><small>안전과 건강을 잇는 파트너</small></span></a>; }
+export async function Header() {
+  const user = await getUser();
+  return <header className="site-header"><div className="header-main container"><Logo /><div className="utility-nav"><a href="/">Home</a><span aria-hidden="true" />{user ? <>{user.role === "master" && <><a href="/admin/members">마스터 관리</a><span aria-hidden="true" /></>}<a href="/members">내 회원정보</a><span aria-hidden="true" /><a href={signOutPath("/")} target="_top">로그아웃</a></> : <><a href={signInPath("/")} target="_top">로그인</a><span aria-hidden="true" /><a href="/join">회원가입</a></>}</div></div><nav className="main-nav" aria-label="주 메뉴"><div className="container nav-items">{navigation.map(item => item.children.length ? <NavigationMenu label={item.label} children={item.children} key={item.label} /> : <a className="nav-direct" href={item.href} key={item.label}>{item.label}</a>)}</div></nav></header>;
+}
+export function Footer() { return <footer className="site-footer"><div className="container footer-inner"><div><strong>{company.name}</strong><p>대표 {company.representative} <span>·</span> {company.address}</p><p>전화 <a href="tel:01076519208">{company.phone}</a></p></div><div className="footer-right"><a href="/company/location">찾아오는길 ↗</a><a href="/privacy">개인정보 안내</a><small>© {new Date().getFullYear()} Argo&Health Lab.</small></div></div></footer>; }
+export function Arrow({ diagonal = false }: { diagonal?: boolean }) { return <span aria-hidden="true">{diagonal ? "↗" : "→"}</span>; }
+export function PageHeading({ eyebrow, title, description }: { eyebrow: string; title: string; description: string }) { return <div className="page-heading"><a href="/" className="breadcrumb">Home <span>/</span> {eyebrow}</a><p className="eyebrow">ARGO&HEALTH LAB</p><h1>{title}</h1><p>{description}</p></div>; }
+export function EmptyState({ title, description }: { title: string; description: string }) { return <div className="empty-state"><span aria-hidden="true" className="empty-mark">＋</span><h3>{title}</h3><p>{description}</p></div>; }

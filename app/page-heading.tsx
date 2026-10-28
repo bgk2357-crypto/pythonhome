@@ -1,0 +1,1 @@
+export function PageHeading({eyebrow,title,description}:{eyebrow:string;title:string;description:string}){return <div className="page-heading"><a href="/" className="breadcrumb">Home <span>/</span> {eyebrow}</a><p className="eyebrow">ARGO&HEALTH LAB</p><h1>{title}</h1><p>{description}</p></div>;}
