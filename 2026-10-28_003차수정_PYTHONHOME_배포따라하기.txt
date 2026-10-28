@@ -1,0 +1,369 @@
+# PYTHONHOME 배포 따라하기
+GitHub → PythonAnywhere / 초보자용 / 2026-10-28 · 003차수정
+
+이 문서는 실제 진행한 계정과 주소를 예시로 작성했습니다. 처음부터 설치하는 방법과 이미 설치한 사이트를 업데이트하는 방법을 구분합니다. 현재 사이트에서 이미 끝낸 단계를 다시 실행할 필요는 없습니다.
+
+## 1. 이번에 사용한 기본정보
+| 구분 | 실제 사용한 예시 |
+| PC 개발 폴더 | C:\pythonhome |
+| GitHub 계정 | bgk2357-crypto |
+| GitHub 저장소 | https://github.com/bgk2357-crypto/pythonhome.git |
+| PythonAnywhere 사용자명 | kimjihoon2357 |
+| 홈페이지 | https://kimjihoon2357.pythonanywhere.com/ |
+| 서버 상태 확인 | https://kimjihoon2357.pythonanywhere.com/api/health |
+| 로그인 화면 | https://kimjihoon2357.pythonanywhere.com/login |
+| 서버 프로젝트 폴더 | /home/kimjihoon2357/pythonhome |
+| 서버 가상환경 폴더 | /home/kimjihoon2357/.virtualenvs/pythonhome |
+| 서버 비공개 DB 폴더 | /home/kimjihoon2357/pythonhome-data |
+| 서버 설정 파일 | /home/kimjihoon2357/pythonhome/.env |
+| WSGI 설정 파일 | /var/www/kimjihoon2357_pythonanywhere_com_wsgi.py |
+| 이번에 확인한 Python / Flask | Python 3.12.8 / Flask 3.1.3 |
+
+다른 계정에서 사용할 때는 사용자명·GitHub 주소·도메인·/home 경로를 그 계정에 맞게 함께 바꿉니다. PythonAnywhere의 Web 설정에서 제공하는 Python 버전을 확인하고 가상환경과 Web 앱의 버전을 일치시킵니다. 이 문서의 예시는 3.12입니다.
+
+비밀번호·AUTH_SECRET·Google Client Secret·GitHub 토큰은 이 가이드에 저장하지 않았습니다. 계정명과 서버 주소는 설정 예시이며 비밀 키를 대신하지 않습니다.
+
+## 2. 지금 어디까지 끝났는지 먼저 확인하기
+2026-10-28 대화와 제공 화면을 기준으로 GitHub 업로드, 서버 Git 복제, Python 가상환경 및 라이브러리 설치, .env 생성, 신규 DB 초기화, WSGI 저장, Reload를 진행했습니다.
+마지막 서버 상태 화면에는 status=ok, runtime=python, connection/community/guestbook=true가 확인됐습니다. 서버가 실제로 응답하고 기본 DB 조회가 성공한 상태입니다.
+이 확인만으로 회원가입·모든 화면·Google 로그인·지도·이메일 발송까지 검증한 것은 아닙니다. NAS의 기존 운영 데이터도 아직 이전하지 않았습니다.
+
+이미 이 상태라면 5~11장의 최초 설치를 반복하지 말고 12장의 홈페이지 확인 또는 14장의 수정본 배포 방법을 보세요.
+
+## 3. 입력할 명령과 결과 화면 구분하기 — 가장 중요
+이 가이드의 파란색 명령 상자는 실행하거나 지정된 편집기에 붙여넣는 내용입니다. 초록색 '확인용 결과 — 입력하지 마세요' 상자는 실행 결과의 예시입니다.
+
+다음은 입력할 명령입니다. PythonAnywhere의 Bash 콘솔에 입력하고 Enter를 누릅니다.
+```bash
+python scripts/manage.py check
+```
+
+다음은 위 명령을 실행했을 때 나오는 결과 예시입니다. 이 세 줄을 다시 입력하지 않습니다.
+```expected
+integrity: ok
+foreign_key_errors: 0
+migrations: 8
+```
+
+실제로 질문 중 위 결과를 Bash에 입력해 'bash: integrity:: command not found'가 나왔습니다. 결과 문구는 프로그램 이름이 아니므로 발생한 오류이며, 그 뒤 check를 다시 실행해 정상 결과가 나왔으면 DB가 망가진 것이 아닙니다.
+
+명령 앞에 보이는 '$', '(pythonhome)', 시간, '~/pythonhome (main)'은 프롬프트입니다. 직접 입력할 내용이 아닙니다. 복사할 때 명령 자체만 복사합니다.
+
+## 4. 세 가지 작업 장소 이해하기
+| 장소 | 하는 일 |
+| PC의 PowerShell · C:\pythonhome | 화면·서버 코딩, 화면 빌드, 테스트, GitHub 업로드 |
+| PythonAnywhere의 Consoles → Bash | GitHub 코드 내려받기, Python 설치환경, DB 준비, 업데이트 |
+| PythonAnywhere의 Web 화면 | 서버 폴더·가상환경·WSGI 연결, Reload, 로그 확인 |
+
+웹브라우저의 주소창은 홈페이지나 /api/health 주소를 여는 곳입니다. /api/health 결과는 Web 설정 화면이나 Bash 안에서 찾는 것이 아닙니다.
+
+배포 흐름은 'PC 코드 → GitHub 저장소 → PythonAnywhere 코드 폴더 → WSGI 실행 → 홈페이지 접속'입니다. GitHub에 업로드해도 PythonAnywhere가 자동으로 같은 코드로 바뀌지는 않습니다.
+
+## 5. 최초 설치 A — GitHub 파일 준비 및 Bash 열기
+이번에는 GitHub 업로드를 이미 완료했으므로 서버에서 가져오는 단계부터 진행했습니다.
+GitHub 저장소에 최소한 flask_app.py, wsgi.py, requirements-lock.txt, server/, web/index.html이 있어야 합니다. web/는 PC에서 미리 빌드한 화면입니다. 이 프로젝트는 서버에 Node.js나 PHP를 설치하지 않아도 빌드된 화면을 실행할 수 있습니다.
+.env, 실제 비밀 키, SQLite DB, 회원 첨부자료, 업로드원본, 에이전트변환데이터는 GitHub에 올리지 않습니다.
+
+PythonAnywhere에 로그인하면 Dashboard가 나옵니다. 왼쪽 'New console' 아래 '$ Bash' 버튼을 누릅니다.
+이미 콘솔을 열었다면 왼쪽 Recent Consoles의 'Bash console 48885496'처럼 표시된 기존 콘솔을 다시 클릭해도 됩니다. 콘솔 번호는 매번 달라지므로 번호 자체를 맞출 필요는 없습니다.
+무료 계정에서 콘솔 2개 제한 안내가 나와도 기존 Bash 콘솔을 재사용하면 됩니다. 새 콘솔을 추가할 필요는 없습니다.
+
+## 6. 최초 설치 B — GitHub에서 코드 가져오기
+실행 장소: PythonAnywhere의 검은색 Bash 콘솔. 처음 가져올 때만 아래 두 줄을 실행합니다.
+```bash
+git clone https://github.com/bgk2357-crypto/pythonhome.git
+cd ~/pythonhome
+```
+
+'Receiving objects ... done', 'Updating files ... done'이 나오고 입력줄에 ~/pythonhome이 보이면 정상입니다.
+'destination path ... already exists'가 나오면 이미 받은 폴더가 있다는 뜻입니다. 폴더를 삭제하거나 clone을 반복하지 말고 기존 설치 상태를 확인하세요. 이후 업데이트는 14장의 git pull을 사용합니다.
+
+필수 파일을 확인합니다.
+```bash
+ls flask_app.py wsgi.py requirements-lock.txt web/index.html
+```
+
+네 파일 이름이 표시되면 다음으로 갑니다. web/index.html이 없다면 PC의 C:\pythonhome에서 npm run build를 실행하고 생성된 web/를 GitHub에 함께 올린 뒤 서버 코드를 갱신해야 합니다.
+비공개 저장소에서 인증을 요구하면 GitHub 계정과 해당 저장소 접근 권한이 있는 토큰을 사용합니다. GitHub 계정 비밀번호를 HTTPS Git 인증 비밀번호로 사용하지 않습니다. 토큰을 저장소 URL이나 공유 화면에 넣지 않습니다.
+
+## 7. 최초 설치 C — Python 가상환경과 라이브러리
+실행 장소: 같은 Bash 콘솔. Python 가상환경은 이 사이트만 사용하는 라이브러리를 담는 별도 폴더입니다.
+```bash
+python3.12 -m venv ~/.virtualenvs/pythonhome
+source ~/.virtualenvs/pythonhome/bin/activate
+python -m pip install -r requirements-lock.txt
+```
+
+입력줄 맨 앞에 (pythonhome)이 나타나면 활성화된 것입니다. 설치 마지막에 'Successfully installed ...'가 표시되면 라이브러리 설치가 끝났습니다.
+다음으로 실제 버전과 설치 위치를 확인합니다.
+```bash
+python --version
+python -m pip show Flask
+```
+
+이번에 확인한 결과 예시이며 아래 문구는 입력하지 않습니다.
+```expected
+Python 3.12.8
+Name: Flask
+Version: 3.1.3
+Location: /home/kimjihoon2357/.virtualenvs/pythonhome/lib/python3.12/site-packages
+```
+
+python3.12 명령이 없다면 설치를 강제로 반복하지 말고 Web 앱에서 제공하는 버전을 확인합니다. 가상환경과 Web 설정의 Python 버전이 같아야 합니다.
+다른 날 새 Bash 콘솔을 열었을 때는 다음 두 줄로 작업 위치와 환경을 다시 선택합니다. 이미 만든 가상환경을 다시 생성할 필요는 없습니다.
+```bash
+cd ~/pythonhome
+source ~/.virtualenvs/pythonhome/bin/activate
+```
+
+## 8. 최초 설치 D — 비공개 서버 설정 파일 만들기
+실행 장소: ~/pythonhome의 Bash 콘솔. 아래 전체 상자를 한 번에 복사해 붙여넣고 실행합니다. 첫 줄부터 마지막 PY 줄까지 모두 포함합니다.
+이 명령은 PythonAnywhere 서버에만 .env를 만들고 비밀 키를 무작위로 생성합니다. 비밀 키 값은 화면에 출력하지 않습니다.
+기존 .env가 있으면 덮어쓰지 않고 FileExistsError로 멈춥니다. 이미 배포한 사이트에서는 이 단계를 다시 실행하지 않습니다.
+```bash
+python - <<'PY'
+import os
+import secrets
+
+config = (
+    "APP_ORIGIN=https://kimjihoon2357.pythonanywhere.com\n"
+    f"AUTH_SECRET={secrets.token_hex(32)}\n"
+    "DATA_DIR=/home/kimjihoon2357/pythonhome-data\n"
+    "MASTER_EMAIL=\n"
+)
+
+fd = os.open(".env", os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
+with os.fdopen(fd, "w", encoding="utf-8") as file:
+    file.write(config)
+
+print("서버 설정 파일 생성 완료")
+PY
+```
+
+확인할 결과이며 입력하지 않습니다.
+```expected
+서버 설정 파일 생성 완료
+```
+
+| 설정 | 뜻 |
+| APP_ORIGIN | 사용자가 접속하는 HTTPS 주소. 끝에 /login 또는 /api/health를 붙이지 않음 |
+| AUTH_SECRET | 로그인 쿠키를 보호하는 서버 비밀 키. GitHub·가이드·대화에 공개하지 않음 |
+| DATA_DIR | 회원·글·첨부 등을 저장할 비공개 DB 폴더 |
+| MASTER_EMAIL | 소유자 Google 인증 계정 이메일. 이번 최초 배포에서는 비워두었음 |
+
+직접 설정을 수정할 때는 상단 Files → /home/kimjihoon2357/pythonhome → .env를 열고 저장합니다. 파일이 목록에 안 보이면 Files의 경로 입력/파일 열기 기능에 전체 경로를 입력합니다. .env 전체 내용을 스크린샷으로 공유하지 않습니다.
+Google 로그인·지도·메일 키는 이후 추가할 수 있습니다. 빈 설정으로도 기본 홈페이지와 이메일 회원가입/로그인부터 확인할 수 있습니다.
+
+## 9. 최초 설치 E — 신규 데이터베이스 준비
+이 단계는 NAS 데이터를 가져오지 않고 새 회원 DB로 시작할 때의 절차입니다. NAS 회원정보를 그대로 옮기는 것이 목적이라면 기존 서버 DB를 덮어쓰지 말고 MIGRATION.md의 백업·이전 절차를 먼저 확인하세요.
+```bash
+python scripts/manage.py init-db
+python scripts/manage.py check
+```
+
+확인할 결과 예시이며 입력하지 않습니다. 아래 수치는 최초 배포 당시의 예시입니다. 운영하면서 회원이나 게시글이 늘어나면 건수는 달라집니다. 이후 DB 이관 파일이 추가되면 migrations 수도 바뀔 수 있습니다.
+```expected
+Database initialized/upgraded.
+integrity: ok
+foreign_key_errors: 0
+migrations: 8
+members: 0
+posts: 0
+guestbook: 0
+safety_posts: 3
+msds_assets: 0
+```
+
+integrity: ok는 DB 파일 검사 정상, foreign_key_errors: 0은 관계 오류 없음입니다. safety_posts: 3은 기본 공개 자료 3건이며 NAS 자료가 자동 이전된 뜻이 아닙니다.
+
+## 10. 최초 설치 F — Dashboard에서 Web 앱 시작 버튼 찾기
+이제 Bash에서 더 입력하는 단계가 아니라 PythonAnywhere 웹 화면으로 이동하는 단계입니다.
+1) 화면 상단 메뉴의 Web을 클릭합니다. Dashboard에 있다면 오른쪽 Web apps 아래 'Open Web tab' 버튼을 눌러도 같은 Web 화면으로 갑니다.
+2) 아직 웹앱이 없으면 'Add a new web app'을 누릅니다.
+3) kimjihoon2357.pythonanywhere.com 주소를 확인하고 Next를 누릅니다.
+4) 프레임워크 목록에서는 'Manual configuration'을 선택합니다. 기존 프로젝트를 연결하는 절차입니다.
+5) 'Python 3.12'를 선택하고 Next를 누릅니다.
+
+초록 안내문 'All done! Your web app is now set up. Details below.'와 'Configuration for kimjihoon2357.pythonanywhere.com'이 나오면 웹앱 틀이 생성된 상태입니다. 이 문구만으로 우리 홈페이지 코드 연결까지 완료된 것은 아닙니다.
+이미 왼쪽에 kimjihoon2357.pythonanywhere.com 웹앱이 있으면 그 항목을 선택하고 다음 설정으로 갑니다. 새 웹앱을 또 만들 필요는 없습니다.
+
+## 11. 최초 설치 G — Code·Virtualenv·WSGI 연결하기
+실행 장소: PythonAnywhere Web 설정 화면. 상단 Reload 버튼이 있는 페이지에서 아래로 조금 스크롤해 Code 영역을 찾습니다.
+
+Code 항목의 각 값/수정 링크를 클릭하고 아래 값을 입력한 다음 체크 표시 또는 Enter로 저장합니다.
+| 화면 항목 | 입력할 값 |
+| Source code | /home/kimjihoon2357/pythonhome |
+| Working directory | /home/kimjihoon2357/pythonhome |
+| Python version | 3.12인지 확인 |
+| Virtualenv | /home/kimjihoon2357/.virtualenvs/pythonhome |
+
+Virtualenv는 Code 아래의 별도 영역입니다. '.virtualenvs' 앞의 점과 사용자명·철자를 그대로 맞춥니다. PC 폴더 C:\pythonhome을 이 서버 경로 칸에 입력하지 않습니다.
+
+특히 질문했던 부분: 'WSGI configuration file 링크가 어디 있나요?'
+WSGI는 Web 설정 화면의 Code 영역 안에 있습니다. Log files, Static files, Security, Disable 영역이 보인다면 너무 아래로 내려간 상태입니다. 위로 스크롤해 Code로 돌아갑니다.
+가장 빠른 방법은 Ctrl+F → WSGI 입력 → 검색된 'WSGI configuration file' 오른쪽 파란색 파일 경로를 클릭하는 것입니다.
+클릭할 링크는 보통 /var/www/kimjihoon2357_pythonanywhere_com_wsgi.py입니다. Static files의 'Enter URL', 'Enter path'가 아니며 Files에서 프로젝트 wsgi.py를 찾아 수정하는 단계도 아닙니다.
+
+파란 파일 경로를 클릭하면 코드 편집기가 열립니다. 상단 파일 경로가 /var/www/..._wsgi.py인지 확인합니다. 현재 웹앱의 기본 예제 내용을 모두 지우고 다음 코드만 넣습니다.
+아래는 Bash 명령이 아니라 WSGI 편집기에 붙여넣을 코드입니다.
+```wsgi
+import sys
+
+project_root = '/home/kimjihoon2357/pythonhome'
+
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+from wsgi import application
+```
+
+오른쪽 위 초록색 Save를 누릅니다. 'Save as...'가 아니라 Save입니다. 편집기가 새 탭에서 열렸다면 저장 후 원래 Web 설정 탭을 선택합니다. 같은 탭에서 열렸다면 브라우저 뒤로 가기(←)로 Web 설정 화면에 돌아갑니다.
+편집기 왼쪽의 노란 표시만으로 서버 실행 오류가 확정되는 것은 아닙니다. 최종 판단은 다음 단계 Reload와 /api/health 및 Error log로 합니다.
+Static files는 이번 최초 실행에서는 비워두어도 됩니다. 프로젝트 루트나 DB 폴더를 Static files에 넣지 않습니다.
+
+## 12. 최초 설치 H — 저장 후 Reload, 실제 접속 확인
+특히 질문했던 부분: '저장했는데 어떤 버튼을 누르나요?'
+1) 코드 편집기에서 Save를 누릅니다.
+2) 원래 Web 설정 페이지로 돌아갑니다.
+3) 화면을 맨 위쪽으로 올립니다.
+4) Reload 항목의 초록색 'Reload kimjihoon2357.pythonanywhere.com' 버튼을 누릅니다.
+5) 처리 중 표시가 끝나고 버튼을 다시 사용할 수 있을 때 실제 주소를 열어 확인합니다.
+
+Save는 파일 저장이고 Reload는 저장된 설정·코드로 웹앱을 다시 불러오는 동작입니다. 코드 편집기 안의 다른 회전 화살표 아이콘과 Web 페이지의 초록 Reload 버튼을 혼동하지 마세요.
+
+특히 질문했던 부분: 'status: ok는 어디에서 확인하나요?'
+아래 주소를 브라우저의 새 탭 주소창에 붙여넣고 Enter를 누릅니다. HTML 가이드에서는 주소를 클릭해도 됩니다. Bash나 PythonAnywhere 설정 페이지 안에서 그 문구를 찾는 것이 아닙니다.
+https://kimjihoon2357.pythonanywhere.com/api/health
+
+해당 주소로 열린 페이지에 다음과 비슷한 JSON 글자가 보이면 정상입니다. 이것은 확인용 결과이며 입력하지 않습니다. 키 순서나 줄바꿈은 달라도 됩니다.
+```expected
+{"checks":{"community":true,"connection":true,"guestbook":true},"runtime":"python","status":"ok"}
+```
+
+| 표시 | 확인하는 내용 |
+| status: ok | 기본 서버 상태 정상 |
+| runtime: python | Python 서버 실행 |
+| connection: true | DB 기본 연결 성공 |
+| community: true / guestbook: true | 게시판·방명록 기본 조회 성공 |
+
+사진처럼 글자가 좁은 화면에서 여러 줄로 잘리거나 'pretty print' 체크박스가 있어도 괜찮습니다. 주소 끝이 /api/health인지 확인하고 status와 runtime 값을 읽습니다.
+이후 아래 홈페이지 주소를 열어 메인 화면이 표시되는지 확인합니다.
+https://kimjihoon2357.pythonanywhere.com/
+로그인 화면은 아래 주소입니다.
+https://kimjihoon2357.pythonanywhere.com/login
+기본 화면 확인 후 이메일 회원가입 → 로그인을 확인합니다. health 정상과 모든 사용자 기능 정상은 구분합니다.
+
+## 13. 기존 로그인정보·Google 로그인은 어떻게 되나요?
+이번에 PythonAnywhere에서 만든 DB는 새 DB입니다. NAS 회원정보가 삭제된 것이 아니라 별도 서버에 아직 이전되지 않은 상태입니다. NAS와 PythonAnywhere는 코드·DB·로그인 쿠키를 자동 동기화하지 않습니다.
+기존 회원·비밀번호 해시·등급·게시글·첨부·MSDS 자료를 유지하려면 NAS의 일관된 DB 백업을 따로 이전해야 합니다. 자세한 절차는 MIGRATION.md를 봅니다. 기존 NAS/서버 DB를 임의로 덮어쓰지 않습니다.
+새 서버에서 같은 이메일로 회원가입해도 이전 NAS 회원등급이나 자료가 자동 연결되지 않습니다. DB를 이전하더라도 새 서버에서 다시 로그인해야 합니다.
+
+Google 로그인은 새 서버에 연결 설정이 필요합니다. 기존 Google OAuth 웹 클라이언트에 다음 승인된 리디렉션 URI를 추가할 수 있습니다. NAS도 운영한다면 기존 NAS URI는 지우지 않습니다.
+https://kimjihoon2357.pythonanywhere.com/auth/google/callback
+Google Cloud 설정과 PythonAnywhere .env에 GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, MASTER_EMAIL을 설정한 뒤 Save → Web → Reload 순서로 적용합니다. MASTER_EMAIL에는 실제 소유자의 Google 이메일을 사용합니다. 계정명 kimjihoon2357이나 GitHub 아이디를 이메일 대신 넣지 않습니다.
+Google 이메일 인증과 MASTER_EMAIL이 일치하는 소유자 계정이 초기 마스터 대상입니다. 이메일 문자열만 같게 일반 가입한다고 마스터가 되지는 않습니다. Google 로그인 설정만으로 NAS DB가 옮겨지지도 않습니다.
+네이버 지도와 비밀번호 재설정 메일도 별도 설정·실제 동작 확인이 필요합니다. 가입 이메일은 수신 주소이고 발신 메일 설정을 대신하지 않습니다. NAS 발신 메일 설정 보류 상태와 PythonAnywhere 메일 설정은 별개입니다.
+Google 계정 실제 로그인은 Chrome/Edge 같은 일반 브라우저에서 확인하는 편이 좋습니다. 일부 앱 내장 브라우저에서는 Google 보안 정책으로 로그인이 제한될 수 있습니다.
+
+## 14. 나중에 수정한 코드를 다시 배포하는 방법
+처음 설치와 이후 수정 반영은 다릅니다. 이미 운영 중인 사이트에서 git clone·가상환경 생성·.env 신규 생성·웹앱 추가를 반복하지 않습니다.
+
+A) 내 PC에서 수정·검사·GitHub 업로드
+작업 폴더는 C:\pythonhome입니다. NAS용 C:\home과 혼동하지 않습니다. 화면 소스를 바꿨다면 web/도 함께 빌드합니다.
+PC의 PowerShell에서 실행하는 예시입니다. 기존 개발 가상환경이 있다면 그것을 사용합니다. 아래 .venv 생성·설치는 새 PC에서 환경을 준비할 때만 필요합니다.
+```powershell
+cd C:\pythonhome
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+npm ci
+```
+
+이후 수정할 때의 기본 검사 예시입니다.
+```powershell
+cd C:\pythonhome
+npm run build
+npm run typecheck
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+git status
+git add .
+git diff --cached --name-only
+```
+
+코드와 web/가 포함되고 .env·DB·원본·변환 자료가 빠졌는지 확인합니다. 요청별 산출물 보관이 필요한 개발 작업은 AGENTS.md의 차수 규칙도 따릅니다. 그다음 커밋하고 업로드합니다. 아래 커밋 설명은 실제 수정 내용으로 바꿉니다.
+```powershell
+git commit -m "Update PythonHOME"
+git push origin main
+```
+
+GitHub에 업로드 완료돼도 서버 반영은 아직입니다. 실제 반영에는 다음 B가 필요합니다. GitHub Actions는 검증용이며 현재 자동 실배포 설정은 아닙니다.
+
+B) PythonAnywhere에서 DB 백업 → 코드 갱신
+상단 Consoles에서 기존 Bash 콘솔을 열고 다음을 순서대로 실행합니다. 하나라도 오류가 나면 다음 단계로 계속 넘어가지 말고 오류부터 확인합니다.
+```bash
+cd ~/pythonhome
+source ~/.virtualenvs/pythonhome/bin/activate
+python scripts/manage.py backup-db --output ~/pythonhome-backups/$(date +%Y%m%d_%H%M%S)_argo.sqlite
+git pull --ff-only
+python -m pip install -r requirements-lock.txt
+python scripts/manage.py init-db
+python scripts/manage.py check
+```
+
+백업 파일 이름의 날짜·시간은 명령이 자동으로 넣습니다. 백업은 비공개 폴더에 보관됩니다. init-db는 미적용 DB 구조 변경을 적용하는 명령이며, 정상 절차에서 기존 회원정보를 초기화하거나 삭제하는 명령이 아닙니다.
+git pull이 충돌이나 'local changes'로 멈추면 git reset --hard로 지우지 말고 변경 내용을 먼저 확인합니다. 백업이나 DB 검사에 실패하면 그 원인부터 해결합니다.
+
+C) Web에서 Reload → 주소 확인
+Web → 초록 Reload 버튼 → /api/health → 홈페이지 → 수정 기능 순으로 확인합니다. 새 화면이 안 보이면 브라우저에서 Ctrl+F5로 새로고침해 볼 수 있습니다. DB 구조 변경이 있다면 코드만 예전 버전으로 돌리는 것으로 완전히 복구되지 않을 수 있어 코드·DB 백업을 함께 관리합니다.
+.env와 DATA_DIR의 DB는 Git 밖에 있으므로 정상 git pull로 덮어쓰지 않습니다. 사이트 주소나 서버 키를 임의로 바꾸지 않습니다.
+
+## 15. 막혔을 때 빠르게 찾는 표
+| 상황 | 확인할 것 / 다음 행동 |
+| 다음 절차를 어디서 시작할지 모르겠음 | Dashboard 오른쪽 Web apps 아래 Open Web tab 또는 상단 Web 클릭 |
+| WSGI 링크가 안 보임 | Ctrl+F → WSGI. Log files/Static files/Security보다 위쪽 Code 영역 |
+| WSGI 저장 후 다음 버튼을 모르겠음 | 편집기 Save → 이전 Web 화면 → 맨 위 초록 Reload |
+| status: ok 확인 위치를 모르겠음 | 새 브라우저 탭에 https://kimjihoon2357.pythonanywhere.com/api/health 입력 |
+| bash: integrity:: command not found | 결과 문구를 입력한 것. python scripts/manage.py check만 다시 실행 |
+| .env 생성 시 FileExistsError | 기존 설정이 있음. 덮어쓰지 말고 최초 설치를 반복 중인지 확인 |
+| ModuleNotFoundError: flask 또는 dotenv | Web의 Virtualenv 경로·Python 버전과 라이브러리 설치 위치 확인 |
+| No module named wsgi | WSGI 코드의 project_root와 실제 wsgi.py 파일 존재 확인 |
+| AUTH_SECRET 관련 오류 | 서버 .env가 존재하고 AUTH_SECRET이 생성됐는지 비공개로 확인 |
+| 메인이 안 뜨고 frontend-not-built | GitHub/서버의 web/index.html 확인. PC 빌드 결과 web/ 업로드 |
+| Unhandled Exception / 500 / 502 | Web → Log files → Error log에서 마지막 오류와 발생 시각 확인 |
+| Google 버튼이 준비 중으로 표시 | GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET이 아직 서버에 없음 |
+| Google redirect_uri_mismatch | 승인된 URI가 새 HTTPS /auth/google/callback과 정확히 같은지 확인 |
+| NAS 계정이 새 서버에서 안 보임 | NAS DB 미이전 여부 확인. 신규 가입으로 기존 등급이 복원되지 않음 |
+| 뉴스·메일 외부 연결 실패 | 설정·외부 서비스 응답 및 무료 계정 외부 접속 허용 목록 확인 |
+
+Error log 찾기: PythonAnywhere 상단 Web → 대상 웹앱 → 아래로 스크롤 → Log files → 'Error log:' 오른쪽 파란 링크. Access log나 Server log와 구분합니다. 마지막 오류 줄뿐 아니라 Traceback 시작부터 마지막까지 함께 확인하면 원인을 파악하기 쉽습니다. 같은 파일의 오래된 오류와 새 오류를 발생 시각으로 구분하세요.
+도움을 요청할 때에는 오류 화면/마지막 로그 부분을 보냅니다. .env 전체, AUTH_SECRET, Google Client Secret, 토큰, 비밀번호는 공유하지 않습니다. 편집기 공유 버튼으로 비밀 설정을 공유하지 않습니다.
+
+## 16. 무료 웹앱 유지와 운영 데이터
+이번 계정의 Web 화면에는 Best before date와 'Run until 1 month from today' 버튼이 표시됐습니다. 화면에 안내된 주기로 로그인해 이 버튼을 눌러 운영 기간을 연장합니다. 당시 표시된 만료일은 2026-11-28이었으며, 실제 운영 때는 현재 Web 화면의 날짜가 기준입니다.
+Reload 버튼은 코드/설정을 다시 불러오는 버튼이고, Run until 1 month from today는 무료 웹앱 운영 기간 연장 버튼입니다. 서로 다른 기능입니다.
+무료 계정은 외부 인터넷 접속에 제한이 있어 뉴스 수집·메일 API 등의 실제 연결을 확인해야 합니다. 업그레이드나 요금 결제는 이 가이드의 필수 최초 단계로 진행하지 않습니다.
+회원·게시글·첨부파일이 쌓이므로 서버 DB는 주기적으로 비공개 백업합니다. DB를 GitHub나 Static files로 공개하지 않습니다.
+
+## 17. 첫 배포 완료 확인표
+□ GitHub 저장소에 코드와 web/index.html이 있다.
+□ 서버 Bash에서 ~/pythonhome으로 이동했다.
+□ 가상환경을 활성화했고 Python 3.12와 Flask 설치가 확인됐다.
+□ 서버 .env를 생성했고 비밀 키를 공개하지 않았다.
+□ 신규 시작 또는 NAS 데이터 이전 중 어느 방식인지 구분했다.
+□ DB check가 정상이다.
+□ Web의 Source code / Working directory / Virtualenv를 저장했다.
+□ WSGI 편집기에 지정 코드를 넣고 Save했다.
+□ Web의 초록 Reload 버튼을 눌렀다.
+□ 별도 브라우저 탭의 /api/health에서 status=ok, runtime=python을 확인했다.
+□ 홈페이지 화면과 이메일 회원가입·로그인을 별도로 확인했다.
+□ Google 로그인·지도·메일·기존 데이터 이전은 완료한 것만 완료로 기록했다.
+
+## 18. 이 가이드의 근거와 보관
+이번 대화에서 보존한 화면의 짧은 요약을 재사용했습니다. 원본 이미지의 OCR·재추출은 반복하지 않았습니다. 개인 참고용 원본 이미지나 분석 MD를 공개 가이드에 첨부하지 않았습니다.
+공식 참고:
+https://help.pythonanywhere.com/pages/Flask/
+https://help.pythonanywhere.com/pages/ExternalVCS/
+https://help.pythonanywhere.com/pages/WebAppBasics/
+https://help.pythonanywhere.com/pages/403ForbiddenError/
+https://developers.google.com/identity/protocols/oauth2/web-server
+
+문서 작성은 2026-10-28 PYTHONHOME 003차수정입니다. 같은 요청 진행 중 추가된 '중간에 물어본 부분을 특히 자세히' 요청도 이 차수에 함께 반영했습니다. 이번 작업은 문서 작성이며 NAS 변경·GitHub push·PythonAnywhere Reload·운영 DB 수정은 수행하지 않습니다.

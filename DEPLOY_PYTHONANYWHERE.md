@@ -1,10 +1,12 @@
+> **처음이라면:** [실제 계정으로 따라하는 초보자 가이드](2026-10-28_003차수정_PYTHONHOME_배포따라하기.html)부터 읽으세요. 특히 WSGI 링크 위치·Save와 Reload·정상 결과 확인 위치를 자세히 설명합니다.
+
 # GitHub → PythonAnywhere 설치 절차
 
 `C:\pythonhome`만 독립 GitHub 저장소에 올립니다. NAS용 `C:\home`과 저장소·운영 데이터를 분리합니다. 계정 생성·저장소 주소·비밀 키 입력은 실제 사용자 정보로 진행합니다. PythonAnywhere의 `/home/USERNAME/pythonhome` 경로는 이번 Windows 폴더 이동과 관계없이 그대로 사용합니다.
 
 ## 1. GitHub 비공개 저장소
 
-GitHub에서 빈 Private 저장소 `pythonhome`을 생성합니다. 실제 소유자명을 아래 YOUR_ACCOUNT에 넣습니다. 로컬 저장소는 이 프로젝트에 초기화되어 있으며 원격 저장소는 연결하지 않았습니다.
+GitHub에서 빈 Private 저장소 `pythonhome`을 생성합니다. 실제 소유자명을 아래 YOUR_ACCOUNT에 넣습니다. 이번 대화의 실제 저장소는 https://github.com/bgk2357-crypto/pythonhome.git 이며, 사용자의 업로드와 서버 복제가 확인됐습니다. 이미 업로드했다면 이 1번 단계는 건너뜁니다. 아래 YOUR_ACCOUNT·USERNAME은 다른 계정에서 재사용하기 위한 일반 예시입니다.
 
 ```powershell
 cd C:\pythonhome

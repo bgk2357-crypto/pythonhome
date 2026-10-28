@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 KST = timezone(timedelta(hours=9))
 FOLDERS = ('server', 'web', 'frontend', 'app', 'components', 'lib', 'hooks', 'public', 'scripts', 'tests', '.github')
-FILES = ('AGENTS.md', 'README.md', 'DEPLOY_PYTHONANYWHERE.md', 'MIGRATION.md', 'VERIFICATION.md', 'requirements.txt', 'requirements-lock.txt', 'flask_app.py', 'wsgi.py', '.env.example', '.gitignore', 'package.json', 'package-lock.json', 'tsconfig.json', 'components.json', 'outputs/2026-10-28_001차수정_PYTHONHOME_수정파일_생성보관_가이드.txt')
+FILES = ('2026-10-28_003차수정_PYTHONHOME_배포따라하기.html', '2026-10-28_003차수정_PYTHONHOME_배포따라하기.txt', 'AGENTS.md', 'README.md', 'DEPLOY_PYTHONANYWHERE.md', 'MIGRATION.md', 'VERIFICATION.md', 'requirements.txt', 'requirements-lock.txt', 'flask_app.py', 'wsgi.py', '.env.example', '.gitignore', 'package.json', 'package-lock.json', 'tsconfig.json', 'components.json', 'outputs/2026-10-28_001차수정_PYTHONHOME_수정파일_생성보관_가이드.txt')
 
 
 def collect():
